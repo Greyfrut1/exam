@@ -1,0 +1,19 @@
+{
+    "name": "drupal/smart_read_more_link",
+    "description": "Dynamic read more link for text fields.",
+    "type": "drupal-module",
+    "homepage": "https://drupal.org/project/smart_read_more_link",
+    "authors": [
+        {
+            "name": "Ilcho Vuchkov (vuil)",
+            "homepage": "https://www.drupal.org/u/vuil",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/smart_read_more_link?categories=All",
+        "source": "https://drupal.org/project/smart_read_more_link"
+    },
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev"
+}

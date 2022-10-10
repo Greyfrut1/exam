@@ -20,7 +20,10 @@
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
-        "drupal/social_link_field": "^1.1@alpha"
+        "drupal/search_api": "^1.26",
+        "drupal/smart_read_more_link": "^2.0",
+        "drupal/social_link_field": "^1.1@alpha",
+        "drupal/social_media_links": "^2.8"
     },
     "conflict": {
         "drupal/drupal": "*"
