@@ -1,0 +1,149 @@
+@import "variables";
+@import "fonts";
+@font-face {
+  font-family: "NexaSlabBlod";
+  src: url("../fonts/NexaSlabBoldFREE.woff2");
+}
+@font-face {
+  font-family: "RadianExtraLight";
+  src: url("../fonts/Radian ExtraLight.woff2");
+}
+@font-face {
+  font-family: "AvenirArabic-Book";
+  src: url("../fonts/AvenirArabic-Book.woff2");
+}
+@font-face {
+  font-family: "AvenirArabic-Light";
+  src: url("../fonts/AvenirArabic-Light.woff2");
+}
+
+.region-header{
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.region-header{
+  padding-top: 37px;
+  width: 1193px;
+  margin: 0 auto;
+  display: flex;
+  .contextual-region{
+    height: 110px;
+  }
+  #block-headerbackground{
+    position: static;
+      img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+      }
+  }
+  #block-quarantie{
+    text-align: center;
+    width: 230px;
+    height: 76px;
+    padding: 34px 0 0 0;
+    background-color: $black;
+    .field--name-field-main-name{
+      font-family: "NexaSlabBlod", serif;
+      font-size: 30px;
+      color: $blue;
+      line-height: 24px;
+    }
+    .field--name-field-subname{
+      font-family: "RadianExtraLight", serif;
+      font-size: 17px;
+      color: $grey;
+    }
+  }
+  #block-home{
+    background-color: $white;
+    padding: 0 29px;
+    .field--name-field-image{
+      margin-top: 42px;
+      img{
+        width: 27px;
+        height: 27px;
+      }
+    }
+  }
+  #block-mainmenu{
+    background-color: $white;
+    .menu{
+      margin: 0;
+      display: flex;
+      .menu-item{
+        margin-top: 43px;
+        margin-right: 23px;
+        a{
+          font-family: "AvenirArabic-Light", serif;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: normal;
+          font-size: 13px;
+          color: $black;
+        }
+      }
+    }
+  }
+  #block-companylinks{
+    background-color: $white;
+    padding: 0 11px;
+    .social-media-links--platforms{
+      display: flex;
+      margin-top: 42px;
+      li{
+        &:nth-child(2),&:nth-child(1){
+          font-size: 10px;
+        }
+        width: 25px;
+        height: 25px;
+        font-size: 8px;
+        text-align: center;
+        margin: 0 5px;
+        a{
+          color: $white;
+          span{
+            line-height: 25px;
+          }
+        }
+        background-color: $blue;
+      }
+    }
+  }
+  .search-block-form{
+    background-color: $white;
+    padding-left: 7px;
+    padding-right: 27px;
+    form{
+      display: flex;
+      align-items: center;
+      margin-top: 35px;
+      .form-type-search{
+        margin: 0;
+        input{
+          border: 1px solid $grey;
+          background-color: white;
+          width: 158px;
+          height: 33px;
+          border-radius: 0;
+        }
+      }
+      .form-wrapper{
+        display: block;
+        input{
+          border: 1px solid $grey;
+          background-color: $white;
+          border-radius: 0;
+          font-size: 0;
+          width: 37px;
+          height: 37px;
+        }
+      }
+    }
+  }
+}
