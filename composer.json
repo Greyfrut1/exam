@@ -27,7 +27,8 @@
         "drupal/simple_like_button": "^1.0@beta",
         "drupal/smart_read_more_link": "^2.0",
         "drupal/social_link_field": "^1.1@alpha",
-        "drupal/social_media_links": "^2.8"
+        "drupal/social_media_links": "^2.8",
+        "drupal/taxonomy_class": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"

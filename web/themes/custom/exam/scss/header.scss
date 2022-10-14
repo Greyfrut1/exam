@@ -16,7 +16,10 @@
   font-family: "AvenirArabic-Light";
   src: url("../fonts/AvenirArabic-Light.woff2");
 }
-
+header[role=banner]{
+  position: relative;
+  overflow: hidden;
+}
 .region-header{
   width: 1250px;
   margin: 0 auto;
@@ -24,12 +27,12 @@
   flex-wrap: wrap;
 }
 .region-header{
-  padding-top: 37px;
-  width: 1193px;
+  padding-top: 40px;
+  width: 1250px;
   margin: 0 auto;
   display: flex;
   .contextual-region{
-    height: 110px;
+    height: 115px;
   }
   #block-headerbackground{
     position: static;
@@ -37,27 +40,29 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 700px;
         z-index: -1;
       }
   }
   #block-quarantie{
     text-align: center;
-    width: 230px;
-    height: 76px;
+    width: 240px;
+    height: 80px;
     padding: 34px 0 0 0;
     background-color: $black;
     .field--name-field-main-name{
       font-family: "NexaSlabBlod", serif;
-      font-size: 30px;
+      font-size: 31px;
       color: $blue;
-      line-height: 24px;
+      line-height: 29px;
     }
     .field--name-field-subname{
       font-family: "RadianExtraLight", serif;
-      font-size: 17px;
+      font-size: 18px;
       color: $grey;
+      line-height: 16px;
+      letter-spacing: -.01em;
     }
   }
   #block-home{
@@ -66,8 +71,8 @@
     .field--name-field-image{
       margin-top: 42px;
       img{
-        width: 27px;
-        height: 27px;
+        width: 28px;
+        height: 28px;
       }
     }
   }
@@ -76,15 +81,16 @@
     .menu{
       margin: 0;
       display: flex;
+      margin-left: 3px;
       .menu-item{
-        margin-top: 43px;
+        margin-top: 46px;
         margin-right: 23px;
         a{
           font-family: "AvenirArabic-Light", serif;
           text-transform: uppercase;
           text-decoration: none;
           font-weight: normal;
-          font-size: 13px;
+          font-size: 14px;
           color: $black;
         }
       }
@@ -95,7 +101,7 @@
     padding: 0 11px;
     .social-media-links--platforms{
       display: flex;
-      margin-top: 42px;
+      margin-top: 45px;
       li{
         &:nth-child(2),&:nth-child(1){
           font-size: 10px;
@@ -104,7 +110,7 @@
         height: 25px;
         font-size: 8px;
         text-align: center;
-        margin: 0 5px;
+        margin: 0 5.5px;
         a{
           color: $white;
           span{
@@ -117,19 +123,19 @@
   }
   .search-block-form{
     background-color: $white;
-    padding-left: 7px;
-    padding-right: 27px;
+    padding-left: 9px;
+    padding-right: 28px;
     form{
       display: flex;
       align-items: center;
-      margin-top: 35px;
+      margin-top: 37px;
       .form-type-search{
         margin: 0;
         input{
           border: 1px solid $grey;
           background-color: white;
-          width: 158px;
-          height: 33px;
+          width: 166px;
+          height: 35px;
           border-radius: 0;
         }
       }
@@ -140,10 +146,46 @@
           background-color: $white;
           border-radius: 0;
           font-size: 0;
-          width: 37px;
-          height: 37px;
+          width: 39px;
+          height: 39px;
         }
       }
     }
   }
+  #block-headerbottom{
+    margin: 155px 0 275px 119px;
+    width: 350px;
+    .field--name-field{
+      &-top-text{
+        font-family: "AvenirArabic-Book", serif;
+        text-transform: uppercase;
+        color: $white;
+        line-height: 38px;
+        font-size: 68px;
+        letter-spacing: -.02em;
+      }
+      &-middle-text{
+        font-family: "AvenirArabic-Book", serif;
+        text-transform: uppercase;
+        color: $black;
+        font-size: 41px;
+        line-height: 25px;
+        margin-top: 18px;
+        letter-spacing: -.012em;
+      }
+      &-bottomtext{
+        font-family: "AvenirArabic-Book", serif;
+        text-transform: uppercase;
+        color: $blue;
+        letter-spacing: -.05em;
+        margin-top: 11px;
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: 2px;
+      }
+    }
+  }
+}
+.region-highlighted{
+  display: none;
 }

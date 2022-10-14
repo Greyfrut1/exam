@@ -10,5 +10,11 @@
 @font-face {
   font-family: "AvenirArabic-Light";
   src: url("../fonts/AvenirArabic-Light.woff2"); }
+@font-face {
+  font-family: "OrganettoBoldRegular";
+  src: url("../fonts/OrganettoBoldRegular.woff2"); }
+@font-face {
+  font-family: "AvenirNextCyr-Light";
+  src: url("../fonts/AvenirNextCyr-Light.woff2"); }
 
 /*# sourceMappingURL=fonts.css.map */

@@ -11,6 +11,12 @@
   font-family: "AvenirArabic-Light";
   src: url("../fonts/AvenirArabic-Light.woff2"); }
 @font-face {
+  font-family: "OrganettoBoldRegular";
+  src: url("../fonts/OrganettoBoldRegular.woff2"); }
+@font-face {
+  font-family: "AvenirNextCyr-Light";
+  src: url("../fonts/AvenirNextCyr-Light.woff2"); }
+@font-face {
   font-family: "NexaSlabBlod";
   src: url("../fonts/NexaSlabBoldFREE.woff2"); }
 @font-face {
@@ -22,6 +28,10 @@
 @font-face {
   font-family: "AvenirArabic-Light";
   src: url("../fonts/AvenirArabic-Light.woff2"); }
+header[role=banner] {
+  position: relative;
+  overflow: hidden; }
+
 .region-header {
   width: 1250px;
   margin: 0 auto;
@@ -29,71 +39,74 @@
   flex-wrap: wrap; }
 
 .region-header {
-  padding-top: 37px;
-  width: 1193px;
+  padding-top: 40px;
+  width: 1250px;
   margin: 0 auto;
   display: flex; }
   .region-header .contextual-region {
-    height: 110px; }
+    height: 115px; }
   .region-header #block-headerbackground {
     position: static; }
     .region-header #block-headerbackground img {
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
-      height: auto;
+      width: auto;
+      height: 700px;
       z-index: -1; }
   .region-header #block-quarantie {
     text-align: center;
-    width: 230px;
-    height: 76px;
+    width: 240px;
+    height: 80px;
     padding: 34px 0 0 0;
     background-color: #373645; }
     .region-header #block-quarantie .field--name-field-main-name {
       font-family: "NexaSlabBlod", serif;
-      font-size: 30px;
+      font-size: 31px;
       color: #6e9bca;
-      line-height: 24px; }
+      line-height: 29px; }
     .region-header #block-quarantie .field--name-field-subname {
       font-family: "RadianExtraLight", serif;
-      font-size: 17px;
-      color: #cccccc; }
+      font-size: 18px;
+      color: #cccccc;
+      line-height: 16px;
+      letter-spacing: -.01em; }
   .region-header #block-home {
     background-color: #ffffff;
     padding: 0 29px; }
     .region-header #block-home .field--name-field-image {
       margin-top: 42px; }
       .region-header #block-home .field--name-field-image img {
-        width: 27px;
-        height: 27px; }
+        width: 28px;
+        height: 28px; }
   .region-header #block-mainmenu {
     background-color: #ffffff; }
     .region-header #block-mainmenu .menu {
       margin: 0;
-      display: flex; }
+      display: flex;
+      margin-left: 3px; }
       .region-header #block-mainmenu .menu .menu-item {
-        margin-top: 43px;
+        margin-top: 46px;
         margin-right: 23px; }
         .region-header #block-mainmenu .menu .menu-item a {
           font-family: "AvenirArabic-Light", serif;
           text-transform: uppercase;
           text-decoration: none;
           font-weight: normal;
-          font-size: 13px;
+          font-size: 14px;
           color: #373645; }
   .region-header #block-companylinks {
     background-color: #ffffff;
     padding: 0 11px; }
     .region-header #block-companylinks .social-media-links--platforms {
       display: flex;
-      margin-top: 42px; }
+      margin-top: 45px; }
       .region-header #block-companylinks .social-media-links--platforms li {
         width: 25px;
         height: 25px;
         font-size: 8px;
         text-align: center;
-        margin: 0 5px;
+        margin: 0 5.5px;
         background-color: #6e9bca; }
         .region-header #block-companylinks .social-media-links--platforms li:nth-child(2), .region-header #block-companylinks .social-media-links--platforms li:nth-child(1) {
           font-size: 10px; }
@@ -103,19 +116,19 @@
             line-height: 25px; }
   .region-header .search-block-form {
     background-color: #ffffff;
-    padding-left: 7px;
-    padding-right: 27px; }
+    padding-left: 9px;
+    padding-right: 28px; }
     .region-header .search-block-form form {
       display: flex;
       align-items: center;
-      margin-top: 35px; }
+      margin-top: 37px; }
       .region-header .search-block-form form .form-type-search {
         margin: 0; }
         .region-header .search-block-form form .form-type-search input {
           border: 1px solid #cccccc;
           background-color: white;
-          width: 158px;
-          height: 33px;
+          width: 166px;
+          height: 35px;
           border-radius: 0; }
       .region-header .search-block-form form .form-wrapper {
         display: block; }
@@ -124,7 +137,37 @@
           background-color: #ffffff;
           border-radius: 0;
           font-size: 0;
-          width: 37px;
-          height: 37px; }
+          width: 39px;
+          height: 39px; }
+  .region-header #block-headerbottom {
+    margin: 155px 0 275px 119px;
+    width: 350px; }
+    .region-header #block-headerbottom .field--name-field-top-text {
+      font-family: "AvenirArabic-Book", serif;
+      text-transform: uppercase;
+      color: #ffffff;
+      line-height: 38px;
+      font-size: 68px;
+      letter-spacing: -.02em; }
+    .region-header #block-headerbottom .field--name-field-middle-text {
+      font-family: "AvenirArabic-Book", serif;
+      text-transform: uppercase;
+      color: #373645;
+      font-size: 41px;
+      line-height: 25px;
+      margin-top: 18px;
+      letter-spacing: -.012em; }
+    .region-header #block-headerbottom .field--name-field-bottomtext {
+      font-family: "AvenirArabic-Book", serif;
+      text-transform: uppercase;
+      color: #6e9bca;
+      letter-spacing: -.05em;
+      margin-top: 11px;
+      font-size: 15px;
+      line-height: 15px;
+      margin-left: 2px; }
+
+.region-highlighted {
+  display: none; }
 
 /*# sourceMappingURL=header.css.map */

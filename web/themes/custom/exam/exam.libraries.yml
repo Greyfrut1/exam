@@ -3,3 +3,4 @@ global:
     component:
       css/exampl.css: {}
       css/header.css: {}
+      css/contentTeasers.css: {}
