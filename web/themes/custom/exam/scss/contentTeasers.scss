@@ -226,6 +226,7 @@
             cursor: default;
             text-transform: uppercase;
             text-decoration: none;
+            color: $grey;
           }
           a[href="/taxonomy/term/1"]{
             color: $green;
@@ -349,7 +350,6 @@
       margin-top: 18px;
       text-align: center;
       padding-bottom: 12px;
-      border-bottom: 1px solid black;
       .field--name-field-read-more{
         margin: 0 auto;
         display: inline-block;
@@ -363,6 +363,120 @@
           letter-spacing: -.05em;
         }
       }
+    }
+    .social-media-links--platforms{
+      display: flex;
+      margin-top: 13px;
+      margin-left: 40px;
+      li{
+        &:nth-child(2),&:nth-child(1){
+          font-size: 10px;
+        }
+        &:nth-child(3){
+          width: 20px;
+        }
+        width: 18px;
+        height: 22px;
+        font-size: 8px;
+        text-align: center;
+        margin: 0 5px;
+        a{
+          color: $white;
+          span{
+            line-height: 25px;
+          }
+        }
+        background-color: $blue;
+      }
+    }
+    padding-bottom: 20px;
+  }
+  .pager{
+    display: none;
+  }
+}
+.block-views-blocksearch-news-block-1{
+  padding-top: 167px;;
+  h2{
+    width: 1250px;
+    margin: 0 auto;
+    font-family: "OrganettoBoldRegular", serif;
+    text-align: center;
+    overflow: hidden;
+    color: $black;
+    line-height: 39px;
+    font-size: 29px;
+    &:before, &:after{
+      content: '';
+      display: inline-block;
+      vertical-align: 10px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 1px;
+      background: $grey;
+      border: solid #FFF;
+      border-width: 0 20px;
+    }
+    &:before{
+      margin-left: -100%;
+    }
+    &:after{
+      margin-right: -100%;
+    }
+  }
+  .contextual-region{
+    background: repeating-linear-gradient(-60deg, $grey 0, $grey 1px, transparent 1px, transparent 5px);
+    padding-top: 17px;
+  }
+    .view-search-news{
+      width: 1250px;
+      margin: 0 auto;
+      background: none;
+    }
+  .form--inline{
+    width: 405px;
+    display: flex;
+    padding: 6px;
+    padding-bottom: 4px;
+    background-color: $light-grey;
+    .form-type-textfield{
+      margin: 0;
+    }
+    .form-actions{
+      margin: 0;
+      input{
+        padding: 9px 13px;
+        background-color: $light-blue;
+        color: $white;
+        border: none;
+        border-radius: 3px;
+      }
+    }
+  }
+  .form-type-textfield{
+    position: relative;
+    display: flex;
+    label{
+      position: absolute;
+      z-index: 1;
+      pointer-events: none;
+      left: 10px;
+      top: 8px;
+      transition: 1.2s ease all;
+      font-size: 16px;
+      color: $grey;
+    }
+    input{
+      border-radius: 3px;
+      height: 30px;
+      width: 329px;
+      margin-right: 5px;
+      padding: 1px;
+      font-size: 16px;
+      border: 1px solid $grey;
+    }
+    input:focus{
+      z-index: 5;
     }
   }
 }
