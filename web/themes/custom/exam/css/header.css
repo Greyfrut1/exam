@@ -69,7 +69,7 @@ header[role=banner] {
       font-family: "RadianExtraLight", serif;
       font-size: 18px;
       color: #cccccc;
-      line-height: 16px;
+      line-height: 13px;
       letter-spacing: -.01em; }
   .region-header #block-home {
     background-color: #ffffff;
@@ -86,7 +86,7 @@ header[role=banner] {
       display: flex;
       margin-left: 3px; }
       .region-header #block-mainmenu .menu .menu-item {
-        margin-top: 46px;
+        margin-top: 42px;
         margin-right: 23px; }
         .region-header #block-mainmenu .menu .menu-item a {
           font-family: "AvenirArabic-Light", serif;
@@ -100,7 +100,7 @@ header[role=banner] {
     padding: 0 11px; }
     .region-header #block-companylinks .social-media-links--platforms {
       display: flex;
-      margin-top: 45px; }
+      margin-top: 43px; }
       .region-header #block-companylinks .social-media-links--platforms li {
         width: 25px;
         height: 25px;

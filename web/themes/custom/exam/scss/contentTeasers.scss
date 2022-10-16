@@ -59,7 +59,7 @@
         background-color: $blue;
         margin-left: 24px;
         margin-top: 16px;
-        padding: 6px 9px 4px 9px;
+        padding: 2px 9px 4px 9px;
         a{
           font-family: "AvenirArabic-Book", serif;
           color: $white;
@@ -142,7 +142,7 @@
         .field--name-field-read-more{
           display: inline-block;
           background-color: $blue;
-          padding: 6px 9px 4px 9px;
+          padding: 2px 9px 4px 9px;
           margin: 0 auto;
           a{
             font-family: "AvenirArabic-Book", serif;
@@ -243,7 +243,7 @@
         }
       }
       .block-field-blocknodeprojectfield-read-more{
-        margin-top: 15px;
+        margin-top: 13px;
         text-align: center;
         padding-bottom: 12px;
         border-bottom: 1px solid black;
@@ -251,7 +251,7 @@
           margin: 0 auto;
           display: inline-block;
           background-color: $black;
-          padding: 6px 9px;
+          padding: 1px 10px 5px;
           margin-right: 3px;
           a{
             text-decoration: none;
@@ -270,7 +270,7 @@
       .pager__item{
         text-align: center;
         a{
-
+          line-height: 22px;
           text-decoration: none;
           color: $black;
           font-size: 15px;
@@ -282,8 +282,8 @@
         color: #000;
         text-align: center;
         border-radius: 50%;
-        padding: 0.45em  0;
-        width:1.8em;
+        padding: 2px 0 10px 0;
+        width:30px;
         height:1em;
       }
     }
@@ -354,7 +354,7 @@
         margin: 0 auto;
         display: inline-block;
         background-color: $black;
-        padding: 6px 8.5px;
+        padding: 4px 9px;
         a{
           text-decoration: none;
           text-transform: uppercase;
@@ -445,7 +445,7 @@
     .form-actions{
       margin: 0;
       input{
-        padding: 9px 13px;
+        padding: 6px 13px;
         background-color: $light-blue;
         color: $white;
         border: none;
@@ -477,6 +477,45 @@
     }
     input:focus{
       z-index: 5;
+    }
+  }
+  .view-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 70px;
+    padding: 0 20px;
+    .views-row{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      .views-field-rendered-item{
+        display: none;
+      }
+      .views-field-revision-timestamp{
+        grid-column-start: 1;
+        grid-column-end: 1;
+      }
+      .views-field-revision-timestamp-1{
+        grid-column-start: 1;
+        grid-column-end: 1;
+      }
+      .views-field-revision-timestamp-2{
+        grid-column-start: 1;
+        grid-column-end: 1;
+      }
+      .view-field-imagea{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+      }
+      .views-field-title{
+        grid-column-start: 2;
+        grid-column-end: 6;
+      }
+      .views-field-body{
+        grid-column-start: 2;
+        grid-column-end: 6;
+      }
+
     }
   }
 }
