@@ -87,7 +87,8 @@ header[role=banner] {
       margin-left: 3px; }
       .region-header #block-mainmenu .menu .menu-item {
         margin-top: 42px;
-        margin-right: 23px; }
+        margin-right: 23px;
+        font-family: "AvenirArabic-Light",serif; }
         .region-header #block-mainmenu .menu .menu-item a {
           font-family: "AvenirArabic-Light", serif;
           text-transform: uppercase;

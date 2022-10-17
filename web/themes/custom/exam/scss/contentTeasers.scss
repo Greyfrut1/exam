@@ -60,6 +60,7 @@
         margin-left: 24px;
         margin-top: 16px;
         padding: 2px 9px 4px 9px;
+        font-family: "AvenirArabic-Book",serif;
         a{
           font-family: "AvenirArabic-Book", serif;
           color: $white;
@@ -142,7 +143,7 @@
         .field--name-field-read-more{
           display: inline-block;
           background-color: $blue;
-          padding: 2px 9px 4px 9px;
+          padding: 5px 9px 4px 9px;
           margin: 0 auto;
           a{
             font-family: "AvenirArabic-Book", serif;
@@ -243,7 +244,7 @@
         }
       }
       .block-field-blocknodeprojectfield-read-more{
-        margin-top: 13px;
+        margin-top: 16px;
         text-align: center;
         padding-bottom: 12px;
         border-bottom: 1px solid black;
@@ -251,7 +252,7 @@
           margin: 0 auto;
           display: inline-block;
           background-color: $black;
-          padding: 1px 10px 5px;
+          padding: 4px 11px 3px;
           margin-right: 3px;
           a{
             text-decoration: none;
@@ -259,6 +260,7 @@
             font-size: 15px;
             color: $white;
             letter-spacing: -.08em;
+            font-family: "AvenirArabic-Book", serif;
           }
         }
       }
@@ -274,6 +276,12 @@
           text-decoration: none;
           color: $black;
           font-size: 15px;
+          font-family: "AvenirArabic-Book", serif;
+        }
+      }
+      .pager__item--previous, .pager__item--first, .pager__item--next, .pager__item--last{
+        a{
+          font-size: 20px;
         }
       }
       .is-active{
@@ -282,7 +290,7 @@
         color: #000;
         text-align: center;
         border-radius: 50%;
-        padding: 2px 0 10px 0;
+        padding: 5px 0 8px 0;
         width:30px;
         height:1em;
       }
@@ -356,6 +364,7 @@
         background-color: $black;
         padding: 4px 9px;
         a{
+          font-family: "AvenirArabic-Book",serif;
           text-decoration: none;
           text-transform: uppercase;
           font-size: 15px;
@@ -427,6 +436,7 @@
   .contextual-region{
     background: repeating-linear-gradient(-60deg, $grey 0, $grey 1px, transparent 1px, transparent 5px);
     padding-top: 17px;
+    padding-bottom: 36px;
   }
     .view-search-news{
       width: 1250px;
@@ -450,6 +460,8 @@
         color: $white;
         border: none;
         border-radius: 3px;
+        font-size: 15px;
+        font-family: "AvenirArabic-Book",serif;
       }
     }
   }
@@ -482,42 +494,197 @@
   .view-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 70px;
-    padding: 0 20px;
+    grid-column-gap: 30px;
+    padding-top: 10px;
     .views-row{
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      background-color: $white;
+      grid-template-columns:89px 100px min-content auto auto;
+      grid-template-rows: 30px 34px 15px auto auto;
+      padding-top: 22px;
+      padding-bottom: 22px;
       .views-field-rendered-item{
         display: none;
       }
       .views-field-revision-timestamp{
+        font-size: 26px;
+        text-transform: uppercase;
+        line-height: 20px;
+        text-align: center;
+        color: $black;
+        font-family: "AvenirArabic-Light",serif;
         grid-column-start: 1;
         grid-column-end: 1;
       }
       .views-field-revision-timestamp-1{
         grid-column-start: 1;
         grid-column-end: 1;
+        font-size: 48px;
+        text-transform: uppercase;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: $blue;
+        font-family: "AvenirArabic-Light",serif;
       }
       .views-field-revision-timestamp-2{
+        font-size: 15px;
+        text-transform: uppercase;
+        line-height: 20px;
+        color: $grey;
+        text-align: center;
+        font-family: "AvenirArabic-Light",serif;
         grid-column-start: 1;
         grid-column-end: 1;
       }
-      .view-field-imagea{
+      .views-field-field-imagea{
+        border-left: 1px solid $grey;
+        padding-left: 20px;
         grid-column-start: 2;
         grid-column-end: 2;
-        grid-row-start: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+      }
+      .views-field-field-name-author{
+        grid-column: 3/3;
+        grid-row: 1/1;
+        font-family: "AvenirArabic-Light",serif;
+        font-size: 12px;
+        color: $black;
+        line-height: 11px;
+        text-transform: uppercase;
+        padding-left: 10px;
+        span{
+          color: $black;
+          padding: 0 1px 0 2px;
+          white-space: nowrap;
+        }
+        &:before{
+          content: "writer";
+          font-family: "AvenirArabic-Light",serif;
+          color: $grey;
+        }
+        &:after{
+          content: "/";
+          font-family: "AvenirArabic-Light",serif;
+          color: $black;
+        }
+      }
+      .views-field-field-topic{
+        grid-column: 4/4;
+        grid-row: 1/1;
+        font-family: "AvenirArabic-Light",serif;
+        font-size: 12px;
+        color: $blue;
+        line-height: 11px;
+        text-transform: uppercase;
+        margin-left: 2px;
+      }
+      .views-field-revision-timestamp-3{
+        grid-column: 5/5;
+        grid-row: 1/1;
+        font-family: "AvenirArabic-Light",serif;
+        font-size: 12px;
+        line-height: 11px;
+        text-transform: uppercase;
+        color: $grey;
+        padding-right: 17px;
+        text-align: right;
       }
       .views-field-title{
         grid-column-start: 2;
         grid-column-end: 6;
+        margin-top: 16px;
+        padding-left: 19px;
+        font-family: "AvenirArabic-Light", serif;
+        font-size: 25px;
+        line-height: 27px;
+        text-transform: uppercase;
+        letter-spacing: -.02em;
+        border-left: 1px solid $grey;
       }
       .views-field-body{
         grid-column-start: 2;
         grid-column-end: 6;
+        padding-top: 15px;
+        padding-left: 19px;
+        padding-right: 17px;
+        font-family: "AvenirArabic-Light", serif;
+        font-size: 12px;
+        line-height: 11px;
+        text-transform: uppercase;
+        letter-spacing: -.02em;
+        text-align: justify;
+        border-left: 1px solid $grey;
+        .node__links{
+          text-align: right;
+          margin-top: 25px;
+          margin-bottom: 8px;
+          ul{
+            li{
+              padding: 5px 8.5px 4px;
+              font-size: 14px;
+              margin-right: 4px;
+              background-color: $black;
+              a{
+                text-decoration: none;
+                color: $white;
+                font-family: "AvenirArabic-Light", serif;
+              }
+            }
+          }
+        }
       }
 
     }
   }
+  .pager{
+    display: none;
+  }
 }
-
+.block-views-blockcontent-clients-block-1{
+  width: 1250px;
+  margin: 0 auto;
+  h2{
+    margin-top: 27px;
+    font-family: "OrganettoBoldRegular", serif;
+    text-align: center;
+    overflow: hidden;
+    color: $black;
+    line-height: 39px;
+    font-size: 29px;
+    padding-left: 9px;
+    &:before, &:after{
+      content: '';
+      display: inline-block;
+      vertical-align: 10px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 1px;
+      background: $grey;
+      border: solid #FFF;
+      border-width: 0 20px;
+    }
+    &:before{
+      margin-left: -100%;
+    }
+    &:after{
+      margin-right: -100%;
+    }
+  }
+  .view-content{
+    display: flex;
+    padding-top: 80px;
+    .views-row{
+      img{
+        width: 130px;
+        height: auto;
+      }
+      margin-right: 30px;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
 
