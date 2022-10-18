@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "NexaSlabBlod";
+  src: url("../fonts/NexaSlabBoldFREE.woff2"); }
+@font-face {
+  font-family: "RadianExtraLight";
+  src: url("../fonts/Radian ExtraLight.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Book";
+  src: url("../fonts/AvenirArabic-Book.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Light";
+  src: url("../fonts/AvenirArabic-Light.woff2"); }
+@font-face {
+  font-family: "OrganettoBoldRegular";
+  src: url("../fonts/OrganettoBoldRegular.woff2"); }
+@font-face {
+  font-family: "AvenirNextCyr-Light";
+  src: url("../fonts/AvenirNextCyr-Light.woff2"); }
+body[data-once="form-single-submit"] {
+  background-color: blue; }
+
+/*# sourceMappingURL=form.css.map */

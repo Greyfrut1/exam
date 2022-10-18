@@ -4,3 +4,12 @@ global:
       css/exampl.css: {}
       css/header.css: {}
       css/contentTeasers.css: {}
+      css/footer.css: {}
+      css/services.css: {}
+      css/projects.css: {}
+      css/team.css: {}
+      css/news.css: {}
+      css/clients.css: {}
+      css/about.css: {}
+      css/contentFull.css: {}
+      css/form.css: {}

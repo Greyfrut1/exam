@@ -35,12 +35,13 @@
   font-family: "AvenirNextCyr-Light";
   src: url("../fonts/AvenirNextCyr-Light.woff2"); }
 .main-content {
-  background-color: #ffffff;
-  padding-top: 105px; }
+  background-color: #ffffff; }
 
 .block-views-blockhome-page-about-block-1 {
+  padding-top: 105px;
   width: 1250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 93px; }
   .block-views-blockhome-page-about-block-1 .node--view-mode-teaser .block-field-blocknodeaboutbody {
     margin-left: 20px; }
   .block-views-blockhome-page-about-block-1 .node--view-mode-teaser .layout__region--content {
@@ -77,8 +78,7 @@
 
 .block-views-blockcontent-services-block-1 {
   width: 1250px;
-  margin: 0 auto;
-  margin-top: 93px; }
+  margin: 0 auto; }
   .block-views-blockcontent-services-block-1 h2 {
     font-family: "OrganettoBoldRegular", serif;
     text-align: center;
@@ -229,27 +229,28 @@
             color: #ffffff;
             letter-spacing: -.08em;
             font-family: "AvenirArabic-Book", serif; }
-  .block-views-blockcontent-prohects-block-1 .pager {
-    margin-top: 47px; }
-    .block-views-blockcontent-prohects-block-1 .pager .pager__items .pager__item {
-      text-align: center; }
-      .block-views-blockcontent-prohects-block-1 .pager .pager__items .pager__item a {
-        line-height: 22px;
-        text-decoration: none;
-        color: #373645;
-        font-size: 15px;
-        font-family: "AvenirArabic-Book", serif; }
-    .block-views-blockcontent-prohects-block-1 .pager .pager__items .pager__item--previous a, .block-views-blockcontent-prohects-block-1 .pager .pager__items .pager__item--first a, .block-views-blockcontent-prohects-block-1 .pager .pager__items .pager__item--next a, .block-views-blockcontent-prohects-block-1 .pager .pager__items .pager__item--last a {
-      font-size: 20px; }
-    .block-views-blockcontent-prohects-block-1 .pager .pager__items .is-active {
-      display: inline-block;
-      background: #ccc;
-      color: #000;
-      text-align: center;
-      border-radius: 50%;
-      padding: 5px 0 8px 0;
-      width: 30px;
-      height: 1em; }
+
+.pager {
+  margin-top: 47px; }
+  .pager .pager__items .pager__item {
+    text-align: center; }
+    .pager .pager__items .pager__item a {
+      line-height: 22px;
+      text-decoration: none;
+      color: #373645;
+      font-size: 15px;
+      font-family: "AvenirArabic-Book", serif; }
+  .pager .pager__items .pager__item--previous a, .pager .pager__items .pager__item--first a, .pager .pager__items .pager__item--next a, .pager .pager__items .pager__item--last a {
+    font-size: 20px; }
+  .pager .pager__items .is-active {
+    display: inline-block;
+    background: #ccc;
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px 0 8px 0;
+    width: 30px;
+    height: 1em; }
 
 .block-views-blockcontent-our-team-block-1 {
   width: 1250px;
@@ -567,9 +568,14 @@
       margin-right: -100%; }
   .block-views-blockcontent-clients-block-1 .view-content {
     display: flex;
-    padding-top: 80px; }
+    padding-top: 40px;
+    padding-bottom: 152px; }
     .block-views-blockcontent-clients-block-1 .view-content .views-row {
+      display: flex;
+      height: auto;
       margin-right: 30px; }
+      .block-views-blockcontent-clients-block-1 .view-content .views-row .contextual-region {
+        margin: auto; }
       .block-views-blockcontent-clients-block-1 .view-content .views-row img {
         width: 130px;
         height: auto; }

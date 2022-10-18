@@ -1,0 +1,19 @@
+@import "variables";
+@import "fonts";
+
+article[about="/node/60"]{
+  .block-views-blockcontent-clients-block-1{
+  .view-content{
+    justify-content: space-between;
+    padding-bottom: 70px;
+    .views-row{
+      width: 45%;
+      .field--name-field-imagec{
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+  }
+}

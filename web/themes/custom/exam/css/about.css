@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "NexaSlabBlod";
+  src: url("../fonts/NexaSlabBoldFREE.woff2"); }
+@font-face {
+  font-family: "RadianExtraLight";
+  src: url("../fonts/Radian ExtraLight.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Book";
+  src: url("../fonts/AvenirArabic-Book.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Light";
+  src: url("../fonts/AvenirArabic-Light.woff2"); }
+@font-face {
+  font-family: "OrganettoBoldRegular";
+  src: url("../fonts/OrganettoBoldRegular.woff2"); }
+@font-face {
+  font-family: "AvenirNextCyr-Light";
+  src: url("../fonts/AvenirNextCyr-Light.woff2"); }
+.node--page-full[about="/node/37"] {
+  width: 1250px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  .node--page-full[about="/node/37"] .block-field-blocknodepagetitle .field--name-title {
+    display: block;
+    font-family: "OrganettoBoldRegular", serif;
+    text-align: center;
+    overflow: hidden;
+    color: #373645;
+    line-height: 39px;
+    font-size: 29px; }
+    .node--page-full[about="/node/37"] .block-field-blocknodepagetitle .field--name-title:before, .node--page-full[about="/node/37"] .block-field-blocknodepagetitle .field--name-title:after {
+      content: '';
+      display: inline-block;
+      vertical-align: 10px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 1px;
+      background: #cccccc;
+      border: solid #FFF;
+      border-width: 0 20px; }
+    .node--page-full[about="/node/37"] .block-field-blocknodepagetitle .field--name-title:before {
+      margin-left: -100%; }
+    .node--page-full[about="/node/37"] .block-field-blocknodepagetitle .field--name-title:after {
+      margin-right: -100%; }
+  .node--page-full[about="/node/37"] .block-field-blocknodepagebody .field--name-body {
+    font-family: "AvenirArabic-Light", serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px; }
+    .node--page-full[about="/node/37"] .block-field-blocknodepagebody .field--name-body p {
+      margin-bottom: 10px; }
+
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,12 @@
+@import "variables";
+@import "fonts";
+
+article[about="/node/55"]{
+  .block-views-blocksearch-news-block-1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .contextual-region{
+      background: none;
+    }
+  }
+}

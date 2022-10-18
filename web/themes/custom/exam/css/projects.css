@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "NexaSlabBlod";
+  src: url("../fonts/NexaSlabBoldFREE.woff2"); }
+@font-face {
+  font-family: "RadianExtraLight";
+  src: url("../fonts/Radian ExtraLight.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Book";
+  src: url("../fonts/AvenirArabic-Book.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Light";
+  src: url("../fonts/AvenirArabic-Light.woff2"); }
+@font-face {
+  font-family: "OrganettoBoldRegular";
+  src: url("../fonts/OrganettoBoldRegular.woff2"); }
+@font-face {
+  font-family: "AvenirNextCyr-Light";
+  src: url("../fonts/AvenirNextCyr-Light.woff2"); }
+article[about="/node/39"] .block-views-blockcontent-prohects-block-1 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  article[about="/node/39"] .block-views-blockcontent-prohects-block-1 h2 {
+    font-family: "OrganettoBoldRegular", serif; }
+  article[about="/node/39"] .block-views-blockcontent-prohects-block-1 .view-content-prohects {
+    background: none;
+    padding-top: 30px;
+    padding-bottom: 50px; }
+    article[about="/node/39"] .block-views-blockcontent-prohects-block-1 .view-content-prohects .view-content {
+      grid-row-gap: 10px; }
+      article[about="/node/39"] .block-views-blockcontent-prohects-block-1 .view-content-prohects .view-content .views-row .block-field-blocknodeprojectfield-read-more {
+        border-bottom: none; }
+
+/*# sourceMappingURL=projects.css.map */

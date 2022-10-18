@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "NexaSlabBlod";
+  src: url("../fonts/NexaSlabBoldFREE.woff2"); }
+@font-face {
+  font-family: "RadianExtraLight";
+  src: url("../fonts/Radian ExtraLight.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Book";
+  src: url("../fonts/AvenirArabic-Book.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Light";
+  src: url("../fonts/AvenirArabic-Light.woff2"); }
+@font-face {
+  font-family: "OrganettoBoldRegular";
+  src: url("../fonts/OrganettoBoldRegular.woff2"); }
+@font-face {
+  font-family: "AvenirNextCyr-Light";
+  src: url("../fonts/AvenirNextCyr-Light.woff2"); }
+.node--project-full {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  .node--project-full .block-field-blocknodeprojecttitle {
+    font-family: "AvenirArabic-Light", serif;
+    font-weight: bold;
+    font-size: 20px; }
+  .node--project-full .block-field-blocknodeprojectfield-imagee {
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 30px; }
+  .node--project-full .block-field-blocknodeprojectbody {
+    font-family: "AvenirArabic-Light", serif;
+    font-size: 20px;
+    line-height: 25px; }
+    .node--project-full .block-field-blocknodeprojectbody p {
+      margin-bottom: 15px; }
+  .node--project-full .block-field-blocknodeprojectfield-services-taxonomy {
+    margin-top: 20px; }
+    .node--project-full .block-field-blocknodeprojectfield-services-taxonomy .field--name-field-services-taxonomy a {
+      font-size: 15.4px;
+      letter-spacing: .01em;
+      font-family: "AvenirArabic-Light", serif;
+      pointer-events: none;
+      cursor: default;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #cccccc; }
+    .node--project-full .block-field-blocknodeprojectfield-services-taxonomy .field--name-field-services-taxonomy a[href="/taxonomy/term/1"] {
+      color: #1bbc9b; }
+    .node--project-full .block-field-blocknodeprojectfield-services-taxonomy .field--name-field-services-taxonomy a[href="/taxonomy/term/3"] {
+      color: #9b58b5; }
+    .node--project-full .block-field-blocknodeprojectfield-services-taxonomy .field--name-field-services-taxonomy a[href="/taxonomy/term/2"] {
+      color: #e84c3d; }
+    .node--project-full .block-field-blocknodeprojectfield-services-taxonomy .field--name-field-services-taxonomy a[href="/taxonomy/term/4"] {
+      color: #28ade0; }
+
+.node--service-full {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  .node--service-full .block-field-blocknodeservicetitle {
+    font-family: "AvenirArabic-Light", serif;
+    font-weight: bold;
+    font-size: 20px; }
+  .node--service-full .block-field-blocknodeservicefield-images {
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 30px; }
+  .node--service-full .block-field-blocknodeservicebody {
+    font-family: "AvenirArabic-Light", serif;
+    font-size: 20px;
+    line-height: 25px; }
+    .node--service-full .block-field-blocknodeservicebody p {
+      margin-bottom: 15px; }
+
+.node--our-team-full {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+  .node--our-team-full .block-field-blocknodeour-teamfield-name {
+    font-family: "AvenirArabic-Light", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #373645; }
+  .node--our-team-full .block-field-blocknodeour-teamfield-position {
+    font-family: "AvenirArabic-Light", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #cccccc; }
+  .node--our-team-full .block-field-blocknodeour-teamfield-imaget {
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 30px; }
+  .node--our-team-full .block-field-blocknodeour-teambody {
+    font-family: "AvenirArabic-Light", serif;
+    font-size: 20px;
+    line-height: 25px; }
+    .node--our-team-full .block-field-blocknodeour-teambody p {
+      margin-bottom: 15px; }
+  .node--our-team-full .block-field-blocknodeour-teamfield-social-links .social-media-links--platforms {
+    display: flex;
+    margin-top: 13px;
+    margin-left: 40px; }
+    .node--our-team-full .block-field-blocknodeour-teamfield-social-links .social-media-links--platforms li {
+      width: 22px;
+      height: 22px;
+      font-size: 8px;
+      text-align: center;
+      margin: 0 5px;
+      background-color: #6e9bca; }
+      .node--our-team-full .block-field-blocknodeour-teamfield-social-links .social-media-links--platforms li:nth-child(2), .node--our-team-full .block-field-blocknodeour-teamfield-social-links .social-media-links--platforms li:nth-child(1) {
+        font-size: 10px; }
+      .node--our-team-full .block-field-blocknodeour-teamfield-social-links .social-media-links--platforms li:nth-child(3) {
+        width: 20px; }
+      .node--our-team-full .block-field-blocknodeour-teamfield-social-links .social-media-links--platforms li a {
+        color: #ffffff; }
+        .node--our-team-full .block-field-blocknodeour-teamfield-social-links .social-media-links--platforms li a span {
+          line-height: 25px; }
+
+.node--news-full {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .node--news-full .block-field-blocknodenewsfield-name-author {
+    text-align: right;
+    font-family: "AvenirArabic-Light", serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #373645; }
+  .node--news-full .block-field-blocknodenewsfield-imagea {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px; }
+  .node--news-full .block-field-blocknodenewstitle {
+    font-family: "AvenirArabic-Light", serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px; }
+  .node--news-full .block-field-blocknodenewsbody {
+    font-family: "AvenirArabic-Light", serif;
+    color: #373645;
+    font-size: 18px;
+    line-height: 25px; }
+    .node--news-full .block-field-blocknodenewsbody p {
+      margin-bottom: 10px; }
+  .node--news-full .block-field-blocknodenewsfield-topic {
+    font-family: "AvenirArabic-Light", serif;
+    color: #cccccc;
+    font-size: 18px; }
+
+/*# sourceMappingURL=contentFull.css.map */

@@ -26,11 +26,12 @@
 }
 .main-content{
   background-color: $white;
-  padding-top: 105px;
 }
 .block-views-blockhome-page-about-block-1{
+  padding-top: 105px;
   width: 1250px;
   margin: 0 auto;
+  margin-bottom: 93px;
   .node--view-mode{
   &-teaser{
     .block-field-blocknodeaboutbody{
@@ -78,7 +79,6 @@
 .block-views-blockcontent-services-block-1{
   width: 1250px;
   margin: 0 auto;
-  margin-top: 93px;
   h2{
     font-family: "OrganettoBoldRegular", serif;
     text-align: center;
@@ -266,34 +266,34 @@
       }
     }
   }
-  .pager{
-    margin-top: 47px;
-    .pager__items{
-      .pager__item{
-        text-align: center;
-        a{
-          line-height: 22px;
-          text-decoration: none;
-          color: $black;
-          font-size: 15px;
-          font-family: "AvenirArabic-Book", serif;
-        }
+}
+.pager{
+  margin-top: 47px;
+  .pager__items{
+    .pager__item{
+      text-align: center;
+      a{
+        line-height: 22px;
+        text-decoration: none;
+        color: $black;
+        font-size: 15px;
+        font-family: "AvenirArabic-Book", serif;
       }
-      .pager__item--previous, .pager__item--first, .pager__item--next, .pager__item--last{
-        a{
-          font-size: 20px;
-        }
+    }
+    .pager__item--previous, .pager__item--first, .pager__item--next, .pager__item--last{
+      a{
+        font-size: 20px;
       }
-      .is-active{
-        display: inline-block;
-        background: #ccc;
-        color: #000;
-        text-align: center;
-        border-radius: 50%;
-        padding: 5px 0 8px 0;
-        width:30px;
-        height:1em;
-      }
+    }
+    .is-active{
+      display: inline-block;
+      background: #ccc;
+      color: #000;
+      text-align: center;
+      border-radius: 50%;
+      padding: 5px 0 8px 0;
+      width:30px;
+      height:1em;
     }
   }
 }
@@ -674,8 +674,15 @@
   }
   .view-content{
     display: flex;
-    padding-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 152px;
     .views-row{
+      display: flex;
+      height: auto;
+      .contextual-region{
+        margin: auto;
+
+      }
       img{
         width: 130px;
         height: auto;

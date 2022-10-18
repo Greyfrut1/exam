@@ -1,0 +1,6 @@
+@import "variables";
+@import "fonts";
+
+body[data-once="form-single-submit"]{
+ background-color: blue;
+}

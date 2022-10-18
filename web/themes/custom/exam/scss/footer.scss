@@ -1,0 +1,83 @@
+@import "variables";
+@import "fonts";
+
+@font-face {
+  font-family: "NexaSlabBlod";
+  src: url("../fonts/NexaSlabBoldFREE.woff2");
+}
+
+@font-face {
+  font-family: "RadianExtraLight";
+  src: url("../fonts/Radian ExtraLight.woff2");
+}
+
+@font-face {
+  font-family: "AvenirArabic-Book";
+  src: url("../fonts/AvenirArabic-Book.woff2");
+}
+
+@font-face {
+  font-family: "AvenirArabic-Light";
+  src: url("../fonts/AvenirArabic-Light.woff2");
+}
+
+footer {
+  background-color: $black;
+
+  .region-footer {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 54px;
+    padding-bottom: 28px;
+    #block-quarantie-2 {
+      text-align: center;
+      width: 215px;
+      height: 80px;
+      padding: 34px 0 0 0;
+      background-color: $black;
+
+      .field--name-field-main-name {
+        font-family: "NexaSlabBlod", serif;
+        font-size: 32px;
+        color: $blue;
+        line-height: 29px;
+      }
+
+      .field--name-field-subname {
+        font-family: "RadianExtraLight", serif;
+        font-size: 17px;
+        color: $grey;
+        line-height: 13px;
+        letter-spacing: .01em;
+      }
+    }
+    #block-companylinks-2{
+      .social-media-links--platforms{
+        display: flex;
+        margin-top: 38px;
+        li{
+          &:nth-child(2),&:nth-child(1){
+            font-size: 10px;
+          }
+          width: 25px;
+          height: 25px;
+          font-size: 8px;
+          text-align: center;
+          margin: 0 6px;
+          &:last-child{
+            margin-right: 2px;
+          }
+          a{
+            color: $white;
+            span{
+              line-height: 25px;
+            }
+          }
+          background-color: $blue;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "NexaSlabBlod";
+  src: url("../fonts/NexaSlabBoldFREE.woff2"); }
+@font-face {
+  font-family: "RadianExtraLight";
+  src: url("../fonts/Radian ExtraLight.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Book";
+  src: url("../fonts/AvenirArabic-Book.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Light";
+  src: url("../fonts/AvenirArabic-Light.woff2"); }
+@font-face {
+  font-family: "OrganettoBoldRegular";
+  src: url("../fonts/OrganettoBoldRegular.woff2"); }
+@font-face {
+  font-family: "AvenirNextCyr-Light";
+  src: url("../fonts/AvenirNextCyr-Light.woff2"); }
+@font-face {
+  font-family: "NexaSlabBlod";
+  src: url("../fonts/NexaSlabBoldFREE.woff2"); }
+@font-face {
+  font-family: "RadianExtraLight";
+  src: url("../fonts/Radian ExtraLight.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Book";
+  src: url("../fonts/AvenirArabic-Book.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Light";
+  src: url("../fonts/AvenirArabic-Light.woff2"); }
+footer {
+  background-color: #373645; }
+  footer .region-footer {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 54px;
+    padding-bottom: 28px; }
+    footer .region-footer #block-quarantie-2 {
+      text-align: center;
+      width: 215px;
+      height: 80px;
+      padding: 34px 0 0 0;
+      background-color: #373645; }
+      footer .region-footer #block-quarantie-2 .field--name-field-main-name {
+        font-family: "NexaSlabBlod", serif;
+        font-size: 32px;
+        color: #6e9bca;
+        line-height: 29px; }
+      footer .region-footer #block-quarantie-2 .field--name-field-subname {
+        font-family: "RadianExtraLight", serif;
+        font-size: 17px;
+        color: #cccccc;
+        line-height: 13px;
+        letter-spacing: .01em; }
+    footer .region-footer #block-companylinks-2 .social-media-links--platforms {
+      display: flex;
+      margin-top: 38px; }
+      footer .region-footer #block-companylinks-2 .social-media-links--platforms li {
+        width: 25px;
+        height: 25px;
+        font-size: 8px;
+        text-align: center;
+        margin: 0 6px;
+        background-color: #6e9bca; }
+        footer .region-footer #block-companylinks-2 .social-media-links--platforms li:nth-child(2), footer .region-footer #block-companylinks-2 .social-media-links--platforms li:nth-child(1) {
+          font-size: 10px; }
+        footer .region-footer #block-companylinks-2 .social-media-links--platforms li:last-child {
+          margin-right: 2px; }
+        footer .region-footer #block-companylinks-2 .social-media-links--platforms li a {
+          color: #ffffff; }
+          footer .region-footer #block-companylinks-2 .social-media-links--platforms li a span {
+            line-height: 25px; }
+
+/*# sourceMappingURL=footer.css.map */
