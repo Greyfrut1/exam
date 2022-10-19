@@ -16,7 +16,89 @@
 @font-face {
   font-family: "AvenirNextCyr-Light";
   src: url("../fonts/AvenirNextCyr-Light.woff2"); }
-body[data-once="form-single-submit"] {
-  background-color: blue; }
+article[about="/contact_us"] .node__content > .layout > .layout__region {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  article[about="/contact_us"] .node__content > .layout > .layout__region .block-field-blocknodepagetitle {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: "AvenirArabic-Light", serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #373645;
+    margin-bottom: 64px; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-field-blocknodepagetitle:after {
+      content: "";
+      position: absolute;
+      height: 4px;
+      background: #b7b7b7;
+      top: 50px;
+      width: 55px;
+      left: calc(50% - 27.5px); }
+  article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block {
+    width: 460px; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block label {
+      display: none; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block .webform-actions input {
+      padding: 15px 34px;
+      font-family: "AvenirArabic-Light", serif;
+      background-color: #e84c3d;
+      color: #ffffff;
+      border: none;
+      text-transform: uppercase;
+      border-top: 2px solid orange;
+      border-radius: 2px;
+      font-size: 18px; }
+      article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block .webform-actions input:hover {
+        background-color: #c2392b; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-full-name, article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-email, article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-mobile-number {
+      height: 55px; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block .form-item {
+      margin-top: 13px;
+      margin-bottom: 13px; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block .form-item-full-name {
+      margin-top: 0; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-full-name, article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-email, article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-mobile-number, article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-your-message {
+      padding-left: 9px;
+      font-family: "AvenirArabic-Light", serif;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 1px;
+      border: 1px solid #b7b7b7; }
+      article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-full-name::placeholder, article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-email::placeholder, article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-mobile-number::placeholder, article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-your-message::placeholder {
+        text-transform: uppercase;
+        color: #b7b7b7;
+        font-size: 15px;
+        letter-spacing: -.02em; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block #edit-your-message {
+      padding-top: 15px;
+      height: 200px; }
+  article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content {
+    width: 460px; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-title, article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-address-street-, article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-address-state, article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-phone-numbers, article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-mail {
+      font-family: "AvenirArabic-Light", serif; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-title {
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 2px; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-mail {
+      margin-bottom: 34px; }
+      article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-mail .field__label {
+        font-weight: normal; }
+    article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-map .map-container {
+      height: 250px; }
+
+.webform-confirmation__message {
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 20%; }
 
 /*# sourceMappingURL=form.css.map */

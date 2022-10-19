@@ -2,10 +2,9 @@
 @import "fonts";
 
 .node--page-full[about="/node/37"]{
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding: 30px 20px 40px 20px;
   .block-field-blocknodepagetitle{
     .field--name-title{
       display: block;

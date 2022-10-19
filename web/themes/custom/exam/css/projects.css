@@ -17,8 +17,7 @@
   font-family: "AvenirNextCyr-Light";
   src: url("../fonts/AvenirNextCyr-Light.woff2"); }
 article[about="/node/39"] .block-views-blockcontent-prohects-block-1 {
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding: 50px 20px 40px 20px; }
   article[about="/node/39"] .block-views-blockcontent-prohects-block-1 h2 {
     font-family: "OrganettoBoldRegular", serif; }
   article[about="/node/39"] .block-views-blockcontent-prohects-block-1 .view-content-prohects {

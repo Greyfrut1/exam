@@ -1,6 +1,119 @@
 @import "variables";
 @import "fonts";
 
-body[data-once="form-single-submit"]{
- background-color: blue;
+article[about="/contact_us"]{
+  .node__content{
+    & > .layout{
+      & > .layout__region{
+        width: 940px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      .block-field-blocknodepagetitle{
+        margin-top: 10px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        font-family: "AvenirArabic-Light", serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+        color: $black;
+        &:after{
+          content: "";position: absolute;height:4px;background: $dark-grey;top: 50px;width:55px;left: calc(50% - 27.5px);
+        }
+        margin-bottom: 64px;
+      }
+        .block-webform-block{
+          label{
+            display: none;
+          }
+          .webform-actions{
+            input{
+              padding: 15px 34px;
+              font-family: "AvenirArabic-Light", serif;
+              background-color: $orange;
+              &:hover{
+                background-color: $hover-orange;
+              }
+              color: $white;
+              border: none;
+              text-transform: uppercase;
+              border-top: 2px solid orange;
+              border-radius: 2px;
+              font-size: 18px;
+            }
+          }
+          width: 460px;
+          #edit-full-name, #edit-email, #edit-mobile-number{
+            height: 55px;
+          }
+          .form-item{
+            margin-top: 13px;
+            margin-bottom: 13px;
+          }
+          .form-item-full-name{
+            margin-top: 0;
+          }
+          #edit-full-name, #edit-email, #edit-mobile-number, #edit-your-message{
+            padding-left: 9px;
+            font-family: "AvenirArabic-Light", serif;
+            &::placeholder{
+              text-transform: uppercase;
+              color: $dark-grey;
+              font-size: 15px;
+              letter-spacing: -.02em;
+            }
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 1px;
+            border: 1px solid $dark-grey;
+          }
+          #edit-your-message{
+            padding-top: 15px;
+            height: 200px;
+          }
+        }
+        .block-block-content{
+          width: 460px;
+          .block-field-blockblock-contentcontact-form-infofield-title, .block-field-blockblock-contentcontact-form-infofield-address-street-, .block-field-blockblock-contentcontact-form-infofield-address-state, .block-field-blockblock-contentcontact-form-infofield-phone-numbers, .block-field-blockblock-contentcontact-form-infofield-mail{
+            font-family: "AvenirArabic-Light", serif;
+          }
+          .block-field-blockblock-contentcontact-form-infofield-title{
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 2px;
+          }
+          .block-field-blockblock-contentcontact-form-infofield-address-street{
+
+          }
+          .block-field-blockblock-contentcontact-form-infofield-address-state{
+
+          }
+          .block-field-blockblock-contentcontact-form-infofield-phone-numbers{
+
+          }
+          .block-field-blockblock-contentcontact-form-infofield-mail{
+           .field__label{
+             font-weight: normal;
+           }
+            margin-bottom: 34px;
+          }
+          .block-field-blockblock-contentcontact-form-infofield-map{
+            .map-container{
+              height: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.webform-confirmation__message{
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 20%;
 }

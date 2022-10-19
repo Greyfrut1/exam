@@ -19,18 +19,20 @@
 header[role=banner]{
   position: relative;
   overflow: hidden;
+  padding: 0 20px;
 }
 .region-header{
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 .region-header{
   padding-top: 40px;
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   .contextual-region{
     height: 115px;
   }
@@ -65,27 +67,30 @@ header[role=banner]{
       letter-spacing: -.01em;
     }
   }
-  #block-home{
-    background-color: $white;
-    padding: 0 29px;
-    .field--name-field-image{
-      margin-top: 42px;
-      img{
-        width: 28px;
-        height: 28px;
-      }
-    }
-  }
   #block-mainmenu{
+    @media screen and (max-width: 1070px) {
+      order: 4;
+      width: 100%;
+    }
     background-color: $white;
+    flex-grow: 2;
     .menu{
       margin: 0;
       display: flex;
       margin-left: 3px;
+      justify-content: space-around;
+      .menu-item--active-trail{
+        position: relative;
+        border-bottom: 8px solid $blue;
+      }
       .menu-item{
         margin-top: 42px;
-        margin-right: 23px;
         font-family: "AvenirArabic-Light",serif;
+        padding-bottom: 35px;
+        height: 28px;
+        .contextual-region{
+          height: 28px;
+        }
         a{
           font-family: "AvenirArabic-Light", serif;
           text-transform: uppercase;
@@ -93,6 +98,14 @@ header[role=banner]{
           font-weight: normal;
           font-size: 14px;
           color: $black;
+
+        }
+        &:first-child{
+          margin-top: 39px;
+          padding-bottom: 37px;
+          & > a{
+            display: none;
+          }
         }
       }
     }
@@ -129,7 +142,7 @@ header[role=banner]{
     form{
       display: flex;
       align-items: center;
-      margin-top: 37px;
+      margin-top: 36px;
       .form-type-search{
         margin: 0;
         input{
@@ -142,13 +155,19 @@ header[role=banner]{
       }
       .form-wrapper{
         display: block;
+        position: relative;
         input{
           border: 1px solid $grey;
           background-color: $white;
+          background-image: url("../image/icons8-magnifier-24.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 22px 22px;
           border-radius: 0;
           font-size: 0;
           width: 39px;
           height: 39px;
+          border-left: none;
         }
       }
     }

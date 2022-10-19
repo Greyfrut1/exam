@@ -30,19 +30,21 @@
   src: url("../fonts/AvenirArabic-Light.woff2"); }
 header[role=banner] {
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 0 20px; }
 
 .region-header {
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap; }
 
 .region-header {
   padding-top: 40px;
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
   .region-header .contextual-region {
     height: 115px; }
   .region-header #block-headerbackground {
@@ -71,24 +73,28 @@ header[role=banner] {
       color: #cccccc;
       line-height: 13px;
       letter-spacing: -.01em; }
-  .region-header #block-home {
-    background-color: #ffffff;
-    padding: 0 29px; }
-    .region-header #block-home .field--name-field-image {
-      margin-top: 42px; }
-      .region-header #block-home .field--name-field-image img {
-        width: 28px;
-        height: 28px; }
   .region-header #block-mainmenu {
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    flex-grow: 2; }
+    @media screen and (max-width: 1070px) {
+      .region-header #block-mainmenu {
+        order: 4;
+        width: 100%; } }
     .region-header #block-mainmenu .menu {
       margin: 0;
       display: flex;
-      margin-left: 3px; }
+      margin-left: 3px;
+      justify-content: space-around; }
+      .region-header #block-mainmenu .menu .menu-item--active-trail {
+        position: relative;
+        border-bottom: 8px solid #6e9bca; }
       .region-header #block-mainmenu .menu .menu-item {
         margin-top: 42px;
-        margin-right: 23px;
-        font-family: "AvenirArabic-Light",serif; }
+        font-family: "AvenirArabic-Light",serif;
+        padding-bottom: 35px;
+        height: 28px; }
+        .region-header #block-mainmenu .menu .menu-item .contextual-region {
+          height: 28px; }
         .region-header #block-mainmenu .menu .menu-item a {
           font-family: "AvenirArabic-Light", serif;
           text-transform: uppercase;
@@ -96,6 +102,11 @@ header[role=banner] {
           font-weight: normal;
           font-size: 14px;
           color: #373645; }
+        .region-header #block-mainmenu .menu .menu-item:first-child {
+          margin-top: 39px;
+          padding-bottom: 37px; }
+          .region-header #block-mainmenu .menu .menu-item:first-child > a {
+            display: none; }
   .region-header #block-companylinks {
     background-color: #ffffff;
     padding: 0 11px; }
@@ -122,7 +133,7 @@ header[role=banner] {
     .region-header .search-block-form form {
       display: flex;
       align-items: center;
-      margin-top: 37px; }
+      margin-top: 36px; }
       .region-header .search-block-form form .form-type-search {
         margin: 0; }
         .region-header .search-block-form form .form-type-search input {
@@ -132,14 +143,20 @@ header[role=banner] {
           height: 35px;
           border-radius: 0; }
       .region-header .search-block-form form .form-wrapper {
-        display: block; }
+        display: block;
+        position: relative; }
         .region-header .search-block-form form .form-wrapper input {
           border: 1px solid #cccccc;
           background-color: #ffffff;
+          background-image: url("../image/icons8-magnifier-24.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 22px 22px;
           border-radius: 0;
           font-size: 0;
           width: 39px;
-          height: 39px; }
+          height: 39px;
+          border-left: none; }
   .region-header #block-headerbottom {
     margin: 155px 0 275px 119px;
     width: 350px; }

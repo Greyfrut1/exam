@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '16ea2f5ce8de9ea1561c6c68cab40fadd4029583',
+        'reference' => 'd3c275cd81d60ffdcaca5eda6087b73cbfbe1c36',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -322,6 +322,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/menu_item_extras' => array(
+            'pretty_version' => '2.17.0',
+            'version' => '2.17.0.0',
+            'reference' => '8.x-2.17',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/menu_item_extras',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/panels' => array(
             'pretty_version' => '4.6.0',
             'version' => '4.6.0.0',
@@ -334,7 +343,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '16ea2f5ce8de9ea1561c6c68cab40fadd4029583',
+            'reference' => 'd3c275cd81d60ffdcaca5eda6087b73cbfbe1c36',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

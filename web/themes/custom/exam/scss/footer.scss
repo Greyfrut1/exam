@@ -23,9 +23,9 @@
 
 footer {
   background-color: $black;
-
+  padding: 0 25px;
   .region-footer {
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

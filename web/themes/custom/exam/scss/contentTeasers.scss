@@ -58,6 +58,10 @@
       }
       .field--name-field-read-more{
         background-color: $blue;
+        &:hover{
+          background-color: $hover-blue;
+          cursor: pointer;
+        }
         margin-left: 24px;
         margin-top: 16px;
         padding: 2px 9px 4px 9px;
@@ -77,7 +81,7 @@
   }
 }
 .block-views-blockcontent-services-block-1{
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
   h2{
     font-family: "OrganettoBoldRegular", serif;
@@ -143,6 +147,10 @@
         .field--name-field-read-more{
           display: inline-block;
           background-color: $blue;
+          &:hover{
+            background-color: $hover-blue;
+            cursor: pointer;
+          }
           padding: 5px 9px 4px 9px;
           margin: 0 auto;
           a{
@@ -165,7 +173,7 @@
 .block-views-blockcontent-prohects-block-1{
   padding-top: 104px;
   h2{
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
     font-family: "AvenirNextCyr-Light", serif;
     text-transform: uppercase;
@@ -201,7 +209,7 @@
     background: repeating-linear-gradient(-60deg, $grey 0, $grey 1px, transparent 1px, transparent 5px);
   }
   .view-content{
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -252,6 +260,10 @@
           margin: 0 auto;
           display: inline-block;
           background-color: $black;
+          &:hover{
+            background-color: $hover-black;
+            cursor: pointer;
+          }
           padding: 4px 11px 3px;
           margin-right: 3px;
           a{
@@ -363,6 +375,10 @@
         display: inline-block;
         background-color: $black;
         padding: 4px 9px;
+        &:hover{
+          background-color: $hover-black;
+          cursor: pointer;
+        }
         a{
           font-family: "AvenirArabic-Book",serif;
           text-decoration: none;
@@ -396,6 +412,9 @@
           }
         }
         background-color: $blue;
+        &:hover{
+          cursor: pointer;
+        }
       }
     }
     padding-bottom: 20px;
@@ -442,6 +461,7 @@
       width: 1250px;
       margin: 0 auto;
       background: none;
+      margin-top: 0;
     }
   .form--inline{
     width: 405px;
@@ -626,6 +646,10 @@
               font-size: 14px;
               margin-right: 4px;
               background-color: $black;
+              &:hover{
+                background-color: $hover-black;
+                cursor: pointer;
+              }
               a{
                 text-decoration: none;
                 color: $white;

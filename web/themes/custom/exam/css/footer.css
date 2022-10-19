@@ -29,9 +29,10 @@
   font-family: "AvenirArabic-Light";
   src: url("../fonts/AvenirArabic-Light.woff2"); }
 footer {
-  background-color: #373645; }
+  background-color: #373645;
+  padding: 0 25px; }
   footer .region-footer {
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

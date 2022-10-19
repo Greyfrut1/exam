@@ -67,6 +67,9 @@
       margin-top: 16px;
       padding: 2px 9px 4px 9px;
       font-family: "AvenirArabic-Book",serif; }
+      .block-views-blockhome-page-about-block-1 .node--view-mode-teaser .layout__region--content .field--name-field-read-more:hover {
+        background-color: #31659e;
+        cursor: pointer; }
       .block-views-blockhome-page-about-block-1 .node--view-mode-teaser .layout__region--content .field--name-field-read-more a {
         font-family: "AvenirArabic-Book", serif;
         color: #ffffff;
@@ -77,7 +80,7 @@
         letter-spacing: -.02em; }
 
 .block-views-blockcontent-services-block-1 {
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto; }
   .block-views-blockcontent-services-block-1 h2 {
     font-family: "OrganettoBoldRegular", serif;
@@ -133,6 +136,9 @@
       background-color: #6e9bca;
       padding: 5px 9px 4px 9px;
       margin: 0 auto; }
+      .block-views-blockcontent-services-block-1 .node--view-mode-teaser .block-field-blocknodeservicefield-read-more .field--name-field-read-more:hover {
+        background-color: #31659e;
+        cursor: pointer; }
       .block-views-blockcontent-services-block-1 .node--view-mode-teaser .block-field-blocknodeservicefield-read-more .field--name-field-read-more a {
         font-family: "AvenirArabic-Book", serif;
         color: #ffffff;
@@ -147,7 +153,7 @@
 .block-views-blockcontent-prohects-block-1 {
   padding-top: 104px; }
   .block-views-blockcontent-prohects-block-1 h2 {
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
     font-family: "AvenirNextCyr-Light", serif;
     text-transform: uppercase;
@@ -178,7 +184,7 @@
     padding-bottom: 155px;
     background: repeating-linear-gradient(-60deg, #cccccc 0, #cccccc 1px, transparent 1px, transparent 5px); }
   .block-views-blockcontent-prohects-block-1 .view-content {
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -222,6 +228,9 @@
           background-color: #373645;
           padding: 4px 11px 3px;
           margin-right: 3px; }
+          .block-views-blockcontent-prohects-block-1 .view-content .node--project-teaser .block-field-blocknodeprojectfield-read-more .field--name-field-read-more:hover {
+            background-color: #3f3f50;
+            cursor: pointer; }
           .block-views-blockcontent-prohects-block-1 .view-content .node--project-teaser .block-field-blocknodeprojectfield-read-more .field--name-field-read-more a {
             text-decoration: none;
             text-transform: uppercase;
@@ -309,6 +318,9 @@
         display: inline-block;
         background-color: #373645;
         padding: 4px 9px; }
+        .block-views-blockcontent-our-team-block-1 .view-content .block-field-blocknodeour-teamfield-read-more .field--name-field-read-more:hover {
+          background-color: #3f3f50;
+          cursor: pointer; }
         .block-views-blockcontent-our-team-block-1 .view-content .block-field-blocknodeour-teamfield-read-more .field--name-field-read-more a {
           font-family: "AvenirArabic-Book",serif;
           text-decoration: none;
@@ -335,6 +347,8 @@
           color: #ffffff; }
           .block-views-blockcontent-our-team-block-1 .view-content .social-media-links--platforms li a span {
             line-height: 25px; }
+        .block-views-blockcontent-our-team-block-1 .view-content .social-media-links--platforms li:hover {
+          cursor: pointer; }
   .block-views-blockcontent-our-team-block-1 .pager {
     display: none; }
 
@@ -370,7 +384,8 @@
   .block-views-blocksearch-news-block-1 .view-search-news {
     width: 1250px;
     margin: 0 auto;
-    background: none; }
+    background: none;
+    margin-top: 0; }
   .block-views-blocksearch-news-block-1 .form--inline {
     width: 405px;
     display: flex;
@@ -533,6 +548,9 @@
             font-size: 14px;
             margin-right: 4px;
             background-color: #373645; }
+            .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-body .node__links ul li:hover {
+              background-color: #3f3f50;
+              cursor: pointer; }
             .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-body .node__links ul li a {
               text-decoration: none;
               color: #ffffff;
