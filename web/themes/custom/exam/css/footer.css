@@ -37,7 +37,8 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-top: 54px;
-    padding-bottom: 28px; }
+    padding-bottom: 28px;
+    flex-wrap: wrap; }
     footer .region-footer #block-quarantie-2 {
       text-align: center;
       width: 215px;

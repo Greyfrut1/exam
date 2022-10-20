@@ -21,5 +21,12 @@ article[about="/node/55"] .block-views-blocksearch-news-block-1 {
   padding-bottom: 50px; }
   article[about="/node/55"] .block-views-blocksearch-news-block-1 .contextual-region {
     background: none; }
+  @media screen and (max-width: 1100px) {
+    article[about="/node/55"] .block-views-blocksearch-news-block-1 .view-search-news .view-content {
+      grid-template-columns: 1fr; }
+      article[about="/node/55"] .block-views-blocksearch-news-block-1 .view-search-news .view-content .views-row {
+        max-width: 610px;
+        margin: 0 auto;
+        margin-bottom: 20px; } }
 
 /*# sourceMappingURL=news.css.map */

@@ -30,7 +30,6 @@
   src: url("../fonts/AvenirArabic-Light.woff2"); }
 header[role=banner] {
   position: relative;
-  overflow: hidden;
   padding: 0 20px; }
 
 .region-header {
@@ -53,15 +52,24 @@ header[role=banner] {
       position: absolute;
       top: 0;
       left: 0;
-      width: auto;
-      height: 700px;
+      max-width: 100%;
+      height: auto;
       z-index: -1; }
+      @media screen and (max-width: 1000px) {
+        .region-header #block-headerbackground img {
+          object-fit: cover;
+          height: 700px; } }
   .region-header #block-quarantie {
     text-align: center;
     width: 240px;
     height: 80px;
     padding: 34px 0 0 0;
-    background-color: #373645; }
+    background-color: #373645;
+    order: 1;
+    box-shadow: 0 3px 15px -5px #373645; }
+    @media screen and (max-width: 384px) {
+      .region-header #block-quarantie {
+        width: 100%; } }
     .region-header #block-quarantie .field--name-field-main-name {
       font-family: "NexaSlabBlod", serif;
       font-size: 31px;
@@ -73,13 +81,38 @@ header[role=banner] {
       color: #cccccc;
       line-height: 13px;
       letter-spacing: -.01em; }
-  .region-header #block-mainmenu {
-    background-color: #ffffff;
-    flex-grow: 2; }
-    @media screen and (max-width: 1070px) {
-      .region-header #block-mainmenu {
+  .region-header .responsive-menus.responsified.responsive-toggled.absolute {
+    position: static; }
+    .region-header .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
+      left: 0; }
+  .region-header .responsive-menus {
+    flex-grow: 2;
+    order: 2;
+    background-color: #ffffff; }
+    @media screen and (max-width: 1160px) {
+      .region-header .responsive-menus {
         order: 4;
         width: 100%; } }
+    @media screen and (max-width: 768px) {
+      .region-header .responsive-menus {
+        order: 2;
+        width: 30%; }
+        .region-header .responsive-menus .toggler {
+          width: 40px;
+          margin-left: auto;
+          padding: 10px !important;
+          background-color: #373645 !important; } }
+    @media screen and (max-width: 384px) {
+      .region-header .responsive-menus {
+        order: 3; }
+        .region-header .responsive-menus .toggler {
+          border-top-left-radius: 0 !important;
+          border-top-right-radius: 0 !important;
+          box-shadow: none !important; } }
+  .region-header #block-mainmenu {
+    background-color: #ffffff;
+    flex-grow: 2;
+    box-shadow: 0 8px 8px -3px #373645; }
     .region-header #block-mainmenu .menu {
       margin: 0;
       display: flex;
@@ -109,10 +142,26 @@ header[role=banner] {
             display: none; }
   .region-header #block-companylinks {
     background-color: #ffffff;
-    padding: 0 11px; }
+    padding: 0 11px;
+    order: 3;
+    box-shadow: 0 8px 8px -3px #373645; }
+    @media screen and (max-width: 1160px) {
+      .region-header #block-companylinks {
+        order: 2;
+        flex-grow: 3; } }
+    @media screen and (max-width: 768px) {
+      .region-header #block-companylinks {
+        order: 3;
+        width: 40%; } }
+    @media screen and (max-width: 384px) {
+      .region-header #block-companylinks {
+        order: 2; }
+        .region-header #block-companylinks .social-media-links--platforms {
+          margin-top: 20px !important; } }
     .region-header #block-companylinks .social-media-links--platforms {
       display: flex;
-      margin-top: 43px; }
+      margin-top: 43px;
+      justify-content: center; }
       .region-header #block-companylinks .social-media-links--platforms li {
         width: 25px;
         height: 25px;
@@ -127,9 +176,18 @@ header[role=banner] {
           .region-header #block-companylinks .social-media-links--platforms li a span {
             line-height: 25px; }
   .region-header .search-block-form {
+    order: 4;
+    box-shadow: 0 8px 8px -3px #373645;
     background-color: #ffffff;
     padding-left: 9px;
     padding-right: 28px; }
+    @media screen and (max-width: 1160px) {
+      .region-header .search-block-form {
+        order: 3; } }
+    @media screen and (max-width: 768px) {
+      .region-header .search-block-form {
+        order: 4;
+        width: 40%; } }
     .region-header .search-block-form form {
       display: flex;
       align-items: center;
@@ -159,7 +217,11 @@ header[role=banner] {
           border-left: none; }
   .region-header #block-headerbottom {
     margin: 155px 0 275px 119px;
-    width: 350px; }
+    width: 350px;
+    order: 5; }
+    @media screen and (max-width: 560px) {
+      .region-header #block-headerbottom {
+        margin: 50px auto 20px auto; } }
     .region-header #block-headerbottom .field--name-field-top-text {
       font-family: "AvenirArabic-Book", serif;
       text-transform: uppercase;

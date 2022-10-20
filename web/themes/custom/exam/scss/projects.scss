@@ -13,9 +13,56 @@ article[about="/node/39"]{
       padding-bottom: 50px;
       .view-content{
         grid-row-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
         .views-row{
           .block-field-blocknodeprojectfield-read-more{
             border-bottom: none;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 1160px) {
+    & > div{
+      .view-content-prohects{
+        .view-content{
+          grid-template-columns: 1fr 1fr 1fr;
+          .views-row{
+            article{
+              width: 290px;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+    @media screen and (max-width: 970px) {
+      & > div{
+        .view-content-prohects{
+          .view-content{
+            grid-template-columns: 1fr 1fr;
+            .views-row{
+              article{
+                width: 290px;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 650px) {
+      & > div{
+        .view-content-prohects{
+          .view-content{
+            grid-template-columns: 1fr;
+            .views-row{
+              article{
+                width: 290px;
+                margin: 0 auto;
+              }
+            }
           }
         }
       }
