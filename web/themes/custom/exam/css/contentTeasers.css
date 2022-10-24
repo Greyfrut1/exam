@@ -369,9 +369,11 @@
           font-size: 15px;
           color: #ffffff;
           letter-spacing: -.05em; }
+    .block-views-blockcontent-our-team-block-1 .view-content .block-field-blocknodeour-teamfield-social-links {
+      float: left; }
     .block-views-blockcontent-our-team-block-1 .view-content .social-media-links--platforms {
       display: flex;
-      margin-top: 13px;
+      margin-top: 6px;
       margin-left: 40px; }
       .block-views-blockcontent-our-team-block-1 .view-content .social-media-links--platforms li {
         width: 18px;

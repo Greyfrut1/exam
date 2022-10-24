@@ -17,3 +17,27 @@ article[about="/node/60"]{
   }
   }
 }
+.slick-slide{
+  height: 130px !important;
+  div{
+    height: 100%;
+    display: flex;
+    .slide{
+      margin: auto;
+      height: auto;
+    }
+  }
+  .views-field-field-imagec{
+    img{
+      width: 130px;
+      height: auto;
+    }
+  }
+}
+.slick-views-slider-test-block-block-1-1-slider{
+  .slick-list{
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+}
+

@@ -38,4 +38,42 @@ article[about="/node/53"] .block-views-blockcontent-our-team-block-1 {
         width: 290px;
         margin: 0 auto; } }
 
+.field--name-field-like > div:last-child {
+  display: none; }
+
+.ajax-progress {
+  display: none; }
+
+.like_dislike {
+  margin-left: 72px;
+  margin-top: 5px;
+  margin-bottom: 3px; }
+  .like_dislike .like {
+    border: none;
+    float: none;
+    width: auto; }
+    .like_dislike .like a {
+      width: 16px;
+      height: 16px;
+      padding-left: 0;
+      background: url("../image/free-icon-heart-2589197.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+      .like_dislike .like a:active {
+        background: url("../image/free-icon-heart-2589054.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+      .like_dislike .like a:after, .like_dislike .like a:before {
+        display: none; }
+    .like_dislike .like span {
+      padding-right: 0;
+      float: none;
+      line-height: 10px;
+      padding-left: 5px;
+      font-size: 10px; }
+      .like_dislike .like span:after, .like_dislike .like span:before {
+        display: none; }
+
 /*# sourceMappingURL=team.css.map */

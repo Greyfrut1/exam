@@ -52,3 +52,50 @@ article[about="/node/53"]{
     }
   }
 }
+.field--name-field-like{
+  & > div:last-child{
+    display: none;
+  }
+}
+.ajax-progress {
+  display: none;
+}
+.like_dislike {
+  margin-left: 72px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  .like {
+    border: none;
+    float: none;
+    width: auto;
+    a{
+      width: 16px;
+      height: 16px;
+      padding-left: 0;
+      background: url("../image/free-icon-heart-2589197.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      &:active{
+        background: url("../image/free-icon-heart-2589054.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+      &:after,&:before{
+        display: none;
+      }
+    }
+    span{
+      padding-right: 0;
+      float: none;
+      line-height: 10px;
+      padding-left: 5px;
+      font-size: 10px;
+      &:after,&:before{
+        display: none;
+      }
+    }
+
+  }
+}

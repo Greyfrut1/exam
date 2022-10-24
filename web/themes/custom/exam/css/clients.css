@@ -24,4 +24,20 @@ article[about="/node/60"] .block-views-blockcontent-clients-block-1 .view-conten
     article[about="/node/60"] .block-views-blockcontent-clients-block-1 .view-content .views-row .field--name-field-imagec img {
       width: 100%; }
 
+.slick-slide {
+  height: 130px !important; }
+  .slick-slide div {
+    height: 100%;
+    display: flex; }
+    .slick-slide div .slide {
+      margin: auto;
+      height: auto; }
+  .slick-slide .views-field-field-imagec img {
+    width: 130px;
+    height: auto; }
+
+.slick-views-slider-test-block-block-1-1-slider .slick-list {
+  max-width: 1250px;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=clients.css.map */

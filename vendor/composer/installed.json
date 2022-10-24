@@ -665,6 +665,126 @@
             "install-path": "../../web/modules/contrib/background_image"
         },
         {
+            "name": "drupal/blazy",
+            "version": "2.13.0",
+            "version_normalized": "2.13.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/blazy.git",
+                "reference": "8.x-2.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/blazy-8.x-2.13.zip",
+                "reference": "8.x-2.13",
+                "shasum": "3d511a9a2855fc0cc18081c8018baff5ce06be40"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10"
+            },
+            "conflict": {
+                "drupal/csp": "<1.12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.13",
+                    "datestamp": "1653986631",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Gaus Surahman",
+                    "homepage": "https://www.drupal.org/u/gausarts",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/2663268/committers",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "geek-merlin",
+                    "homepage": "https://www.drupal.org/user/229048"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                }
+            ],
+            "description": "Provides basic bLazy integration for lazy loading and multi-serving images.",
+            "homepage": "https://drupal.org/project/blazy",
+            "keywords": [
+                "Drupal",
+                "bLazy",
+                "lazyload"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/blazy",
+                "issues": "https://drupal.org/project/issues/blazy"
+            },
+            "install-path": "../../web/modules/contrib/blazy"
+        },
+        {
+            "name": "drupal/bootstrap_simple_carousel",
+            "version": "1.63.0",
+            "version_normalized": "1.63.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap_simple_carousel.git",
+                "reference": "8.x-1.63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_simple_carousel-8.x-1.63.zip",
+                "reference": "8.x-1.63",
+                "shasum": "7f7ed5cc2e8f6cab2a06bd26124e098e2e659fe3"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.63",
+                    "datestamp": "1620468449",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dzianis Kel (asmdk)",
+                    "homepage": "https://www.drupal.org/u/asmdk",
+                    "email": "asm32dk@gmail.com",
+                    "role": "maintainer"
+                }
+            ],
+            "description": "The module provides the simple bootstrap carousel.",
+            "homepage": "https://drupal.org/project/bootstrap_simple_carousel",
+            "support": {
+                "source": "https://cgit.drupalcode.org/bootstrap_simple_carousel",
+                "issues": "https://drupal.org/project/issues/bootstrap_simple_carousel"
+            },
+            "install-path": "../../web/modules/contrib/bootstrap_simple_carousel"
+        },
+        {
             "name": "drupal/core",
             "version": "9.4.7",
             "version_normalized": "9.4.7.0",
@@ -1293,6 +1413,53 @@
             "install-path": "../../web/modules/contrib/google_map_field"
         },
         {
+            "name": "drupal/image_slider",
+            "version": "1.3.0",
+            "version_normalized": "1.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/image_slider.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/image_slider-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "77afa39860f563b35ae8ab19b80bb415fbcfdbc5"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1595855132",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "arunkumarkit",
+                    "homepage": "https://www.drupal.org/user/3523362"
+                }
+            ],
+            "description": "We can use this module to generate different type of slider.",
+            "homepage": "https://www.drupal.org/project/image_slider",
+            "support": {
+                "source": "https://git.drupalcode.org/project/image_slider"
+            },
+            "install-path": "../../web/modules/contrib/image_slider"
+        },
+        {
             "name": "drupal/jquery_ui",
             "version": "1.4.0",
             "version_normalized": "1.4.0.0",
@@ -1491,6 +1658,65 @@
                 "source": "https://git.drupalcode.org/project/jquery_ui_droppable"
             },
             "install-path": "../../web/modules/contrib/jquery_ui_droppable"
+        },
+        {
+            "name": "drupal/like_dislike",
+            "version": "2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/like_dislike.git",
+                "reference": "2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/like_dislike-2.1.0.zip",
+                "reference": "2.1.0",
+                "shasum": "01ca585c9734fc5bd7c400f74219e23bae033137"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.0",
+                    "datestamp": "1642588683",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Rajeshreeputra",
+                    "homepage": "https://www.drupal.org/user/3418561"
+                },
+                {
+                    "name": "heykarthikwithu",
+                    "homepage": "https://www.drupal.org/user/2833651"
+                },
+                {
+                    "name": "naveenvalecha",
+                    "homepage": "https://www.drupal.org/user/2665733"
+                },
+                {
+                    "name": "q__nt_n",
+                    "homepage": "https://www.drupal.org/user/3512064"
+                }
+            ],
+            "description": "Add a Like and Dislike field on every entity (like content, comments etc) and Get instant statistics.",
+            "homepage": "https://www.drupal.org/project/like_dislike",
+            "support": {
+                "source": "https://git.drupalcode.org/project/like_dislike"
+            },
+            "install-path": "../../web/modules/contrib/like_dislike"
         },
         {
             "name": "drupal/linked_field",
@@ -1927,6 +2153,124 @@
                 "source": "https://git.drupalcode.org/project/simple_like_button"
             },
             "install-path": "../../web/modules/contrib/simple_like_button"
+        },
+        {
+            "name": "drupal/slick",
+            "version": "2.6.0",
+            "version_normalized": "2.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/slick.git",
+                "reference": "8.x-2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slick-8.x-2.6.zip",
+                "reference": "8.x-2.6",
+                "shasum": "2e4fa5612899c3aabb86f76ccab76bd6a50b21f2"
+            },
+            "require": {
+                "drupal/blazy": "~2.0",
+                "drupal/core": "^8.8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.6",
+                    "datestamp": "1645369537",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/2232779/committers",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "shadcn",
+                    "homepage": "https://www.drupal.org/user/571032"
+                },
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                }
+            ],
+            "description": "Slick carousel, the last carousel you'll ever need.",
+            "homepage": "https://drupal.org/project/slick",
+            "keywords": [
+                "Drupal",
+                "carousel",
+                "slideshow"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/slick",
+                "issues": "https://drupal.org/project/issues/slick"
+            },
+            "install-path": "../../web/modules/contrib/slick"
+        },
+        {
+            "name": "drupal/slick_views",
+            "version": "2.6.0",
+            "version_normalized": "2.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/slick_views.git",
+                "reference": "8.x-2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slick_views-8.x-2.6.zip",
+                "reference": "8.x-2.6",
+                "shasum": "522780d13d6452cdce73e8bca85b088df548dc05"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10",
+                "drupal/slick": "~2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.6",
+                    "datestamp": "1640350107",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "gausarts",
+                    "homepage": "https://www.drupal.org/user/159062"
+                }
+            ],
+            "description": "Provides Slick carousel integration with Views. Slick carousel, the last carousel you'll ever need.",
+            "homepage": "https://drupal.org/project/slick_views",
+            "keywords": [
+                "Drupal",
+                "carousel",
+                "slideshow",
+                "views"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/slick_views",
+                "issues": "https://drupal.org/project/issues/slick_views"
+            },
+            "install-path": "../../web/modules/contrib/slick_views"
         },
         {
             "name": "drupal/smart_read_more_link",

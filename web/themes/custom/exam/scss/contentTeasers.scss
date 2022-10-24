@@ -486,9 +486,12 @@
         }
       }
     }
+    .block-field-blocknodeour-teamfield-social-links{
+      float: left;
+    }
     .social-media-links--platforms{
       display: flex;
-      margin-top: 13px;
+      margin-top: 6px;
       margin-left: 40px;
       li{
         &:nth-child(2),&:nth-child(1){
