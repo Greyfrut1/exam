@@ -120,7 +120,7 @@ header[role=banner] {
         border-bottom: 8px solid #6e9bca; }
       .region-header #block-mainmenu .menu .menu-item {
         margin-top: 42px;
-        font-family: "AvenirArabic-Light",serif;
+        font-family: "AvenirArabic-Light", serif;
         padding-bottom: 35px;
         height: 28px; }
         .region-header #block-mainmenu .menu .menu-item .menu_link_content {

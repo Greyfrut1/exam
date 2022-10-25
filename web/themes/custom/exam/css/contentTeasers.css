@@ -73,7 +73,7 @@
       margin-left: 24px;
       margin-top: 16px;
       padding: 2px 9px 4px 9px;
-      font-family: "AvenirArabic-Book",serif; }
+      font-family: "AvenirArabic-Book", serif; }
       .block-views-blockhome-page-about-block-1 .node--view-mode-teaser .layout__region--content .field--name-field-read-more:hover {
         background-color: #31659e;
         cursor: pointer; }
@@ -298,7 +298,10 @@
       color: #373645;
       font-size: 15px;
       font-family: "AvenirArabic-Book", serif; }
-  .pager .pager__items .pager__item--previous a, .pager .pager__items .pager__item--first a, .pager .pager__items .pager__item--next a, .pager .pager__items .pager__item--last a {
+  .pager .pager__items .pager__item--previous a,
+  .pager .pager__items .pager__item--first a,
+  .pager .pager__items .pager__item--next a,
+  .pager .pager__items .pager__item--last a {
     font-size: 20px; }
   .pager .pager__items .is-active {
     display: inline-block;
@@ -373,7 +376,7 @@
           background-color: #3f3f50;
           cursor: pointer; }
         .block-views-blockcontent-our-team-block-1 .view-content .block-field-blocknodeour-teamfield-read-more .field--name-field-read-more a {
-          font-family: "AvenirArabic-Book",serif;
+          font-family: "AvenirArabic-Book", serif;
           text-decoration: none;
           text-transform: uppercase;
           font-size: 15px;
@@ -478,7 +481,7 @@
         border: none;
         border-radius: 3px;
         font-size: 15px;
-        font-family: "AvenirArabic-Book",serif; }
+        font-family: "AvenirArabic-Book", serif; }
   .block-views-blocksearch-news-block-1 .form-type-textfield {
     position: relative;
     display: flex; }
@@ -522,7 +525,7 @@
         line-height: 20px;
         text-align: center;
         color: #373645;
-        font-family: "AvenirArabic-Light",serif;
+        font-family: "AvenirArabic-Light", serif;
         grid-column-start: 1;
         grid-column-end: 1; }
       .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-revision-timestamp-1 {
@@ -534,14 +537,14 @@
         text-align: center;
         font-weight: bold;
         color: #6e9bca;
-        font-family: "AvenirArabic-Light",serif; }
+        font-family: "AvenirArabic-Light", serif; }
       .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-revision-timestamp-2 {
         font-size: 15px;
         text-transform: uppercase;
         line-height: 20px;
         color: #cccccc;
         text-align: center;
-        font-family: "AvenirArabic-Light",serif;
+        font-family: "AvenirArabic-Light", serif;
         grid-column-start: 1;
         grid-column-end: 1; }
       .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-field-imagea {
@@ -554,7 +557,7 @@
       .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-field-name-author {
         grid-column: 3/3;
         grid-row: 1/1;
-        font-family: "AvenirArabic-Light",serif;
+        font-family: "AvenirArabic-Light", serif;
         font-size: 12px;
         color: #373645;
         line-height: 11px;
@@ -571,16 +574,16 @@
           white-space: nowrap; }
         .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-field-name-author:before {
           content: "writer";
-          font-family: "AvenirArabic-Light",serif;
+          font-family: "AvenirArabic-Light", serif;
           color: #cccccc; }
         .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-field-name-author:after {
           content: "/";
-          font-family: "AvenirArabic-Light",serif;
+          font-family: "AvenirArabic-Light", serif;
           color: #373645; }
       .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-field-topic {
         grid-column: 4/4;
         grid-row: 1/1;
-        font-family: "AvenirArabic-Light",serif;
+        font-family: "AvenirArabic-Light", serif;
         font-size: 12px;
         color: #6e9bca;
         line-height: 11px;
@@ -595,7 +598,7 @@
       .block-views-blocksearch-news-block-1 .view-content .views-row .views-field-revision-timestamp-3 {
         grid-column: 5/5;
         grid-row: 1/1;
-        font-family: "AvenirArabic-Light",serif;
+        font-family: "AvenirArabic-Light", serif;
         font-size: 12px;
         line-height: 11px;
         text-transform: uppercase;

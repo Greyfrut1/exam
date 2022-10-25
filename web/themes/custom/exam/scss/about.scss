@@ -1,12 +1,13 @@
 @import "variables";
 @import "fonts";
 
-.node--page-full[about="/node/37"]{
+.node--page-full[about="/node/37"] {
   max-width: 1250px;
   margin: 0 auto;
   padding: 30px 20px 40px 20px;
-  .block-field-blocknodepagetitle{
-    .field--name-title{
+
+  .block-field-blocknodepagetitle {
+    .field--name-title {
       display: block;
       font-family: "OrganettoBoldRegular", serif;
       text-align: center;
@@ -14,7 +15,9 @@
       color: $black;
       line-height: 39px;
       font-size: 29px;
-      &:before, &:after{
+
+      &:before,
+      &:after {
         content: '';
         display: inline-block;
         vertical-align: 10px;
@@ -25,22 +28,26 @@
         border: solid #FFF;
         border-width: 0 20px;
       }
-      &:before{
+
+      &:before {
         margin-left: -100%;
       }
-      &:after{
+
+      &:after {
         margin-right: -100%;
       }
     }
   }
-  .block-field-blocknodepagebody{
-    .field--name-body{
+
+  .block-field-blocknodepagebody {
+    .field--name-body {
       font-family: "AvenirArabic-Light", serif;
       text-transform: uppercase;
       font-weight: bold;
       font-size: 18px;
       margin-top: 15px;
-      p{
+
+      p {
         margin-bottom: 10px;
       }
     }

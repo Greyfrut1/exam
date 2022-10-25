@@ -1,69 +1,83 @@
 @import "variables";
 @import "fonts";
+
 @font-face {
   font-family: "NexaSlabBlod";
   src: url("../fonts/NexaSlabBoldFREE.woff2");
 }
+
 @font-face {
   font-family: "RadianExtraLight";
   src: url("../fonts/Radian ExtraLight.woff2");
 }
+
 @font-face {
   font-family: "AvenirArabic-Book";
   src: url("../fonts/AvenirArabic-Book.woff2");
 }
+
 @font-face {
   font-family: "AvenirArabic-Light";
   src: url("../fonts/AvenirArabic-Light.woff2");
 }
-header[role=banner]{
+
+header[role=banner] {
   position: relative;
   padding: 0 20px;
 }
-.region-header{
+
+.region-header {
   max-width: 1250px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-.region-header{
+
+.region-header {
   padding-top: 40px;
   max-width: 1250px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  .contextual-region{
+
+  .contextual-region {
     height: 115px;
   }
-  #block-headerbackground{
+
+  #block-headerbackground {
     position: static;
-      img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        max-width: 100%;
-        z-index: -1;
-        object-fit: cover;
-        height: 700px;
-      }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-width: 100%;
+      z-index: -1;
+      object-fit: cover;
+      height: 700px;
+    }
   }
-  #block-quarantie{
+
+  #block-quarantie {
     text-align: center;
     width: 240px;
     height: 80px;
     padding: 34px 0 0 0;
     background-color: $black;
     order: 1;
+
     @media screen and (max-width: 384px) {
       width: 100%;
     }
-    .field--name-field-main-name{
+
+    .field--name-field-main-name {
       font-family: "NexaSlabBlod", serif;
       font-size: 31px;
       color: $blue;
       line-height: 29px;
     }
-    .field--name-field-subname{
+
+    .field--name-field-subname {
       font-family: "RadianExtraLight", serif;
       font-size: 18px;
       color: $grey;
@@ -71,74 +85,92 @@ header[role=banner]{
       letter-spacing: -.01em;
     }
   }
-  .responsive-menus.responsified.responsive-toggled.absolute{
+
+  .responsive-menus.responsified.responsive-toggled.absolute {
     position: static;
+
     .responsive-menus-simple {
       left: 0;
-      .contextual{
+
+      .contextual {
         display: none;
       }
     }
-    }
-  .responsive-menus{
+  }
+
+  .responsive-menus {
     flex-grow: 2;
     order: 2;
     background-color: $white;
+
     @media screen and (max-width: 1160px) {
       order: 4;
       width: 100%;
     }
+
     @media screen and (max-width: 768px) {
       order: 2;
       width: 30%;
-      .toggler{
+
+      .toggler {
         width: 40px;
         margin-left: auto;
         padding: 10px !important;
         background-color: $black !important;
       }
     }
+
     @media screen and (max-width: 384px) {
       order: 3;
-      .toggler{
+
+      .toggler {
         border-top-left-radius: 0 !important;
         border-top-right-radius: 0 !important;
         box-shadow: none !important;
       }
     }
   }
-  #block-mainmenu{
+
+  #block-mainmenu {
     background-color: $white;
     flex-grow: 2;
-    .menu{
+
+    .menu {
       margin: 0;
       display: flex;
       margin-left: 3px;
       justify-content: space-around;
-      .menu-item--active-trail{
+
+      .menu-item--active-trail {
         position: relative;
         border-bottom: 8px solid $blue;
       }
-      .menu-item{
+
+      .menu-item {
         margin-top: 42px;
-        font-family: "AvenirArabic-Light",serif;
+        font-family: "AvenirArabic-Light", serif;
         padding-bottom: 35px;
         height: 28px;
-        .menu_link_content{
+
+        .menu_link_content {
           display: none;
         }
-        &:first-child{
-          .menu_link_content{
+
+        &:first-child {
+          .menu_link_content {
             display: block;
           }
         }
-          a[href="/node/57"]{
-            display: none !important;
+
+        a[href="/node/57"] {
+          display: none !important;
         }
-        .contextual-region{
+
+        .contextual-region {
           height: 28px;
         }
-        a{
+
+        a {
           font-family: "AvenirArabic-Light", serif;
           text-transform: uppercase;
           text-decoration: none;
@@ -147,96 +179,123 @@ header[role=banner]{
           color: $black;
 
         }
-        &:first-child{
+
+        &:first-child {
           margin-top: 39px;
           padding-bottom: 37px;
-          & > a{
+
+          &>a {
             display: none;
           }
         }
       }
     }
   }
-  #block-companylinks{
+
+  #block-companylinks {
     background-color: $white;
     padding: 0 11px;
     order: 3;
+
     @media screen and (max-width: 1160px) {
       order: 2;
       flex-grow: 3;
     }
+
     @media screen and (max-width: 768px) {
-    order: 3;
+      order: 3;
       width: 40%;
-  }
+    }
+
     @media screen and (max-width: 500px) {
       width: 25%;
     }
+
     @media screen and (max-width: 384px) {
       order: 2;
-      .social-media-links--platforms{
+
+      .social-media-links--platforms {
         margin-top: 20px !important;
       }
     }
-    .social-media-links--platforms{
+
+    .social-media-links--platforms {
       display: flex;
       margin-top: 43px;
       justify-content: center;
-      li{
-        &:nth-child(2),&:nth-child(1){
+
+      li {
+
+        &:nth-child(2),
+        &:nth-child(1) {
           font-size: 10px;
         }
+
         width: 25px;
         height: 25px;
         font-size: 8px;
         text-align: center;
         margin: 0 5.5px;
-        a{
+
+        a {
           color: $white;
-          span{
+
+          span {
             line-height: 25px;
           }
         }
+
         background-color: $blue;
       }
     }
   }
-  .search-block-form{
+
+  .search-block-form {
     order: 4;
+
     @media screen and (max-width: 1160px) {
       order: 3;
     }
+
     @media screen and (max-width: 768px) {
       order: 4;
       width: 40%;
     }
+
     @media screen and (max-width: 500px) {
       width: 60%;
     }
+
     background-color: $white;
     padding-left: 9px;
     padding-right: 28px;
-    form{
+
+    form {
       display: flex;
       align-items: center;
       margin-top: 36px;
-      .form-type-search{
+
+      .form-type-search {
         margin: 0;
-        input{
+
+        input {
           border: 1px solid $grey;
           background-color: white;
           width: 166px;
           height: 35px;
           border-radius: 0;
-          &::placeholder{
+
+          &::placeholder {
             color: transparent;
           }
         }
       }
-      .form-wrapper{
+
+      .form-wrapper {
         display: block;
         position: relative;
-        input{
+
+        input {
           border: 1px solid $grey;
           background-color: $white;
           background-image: url("../image/icons8-magnifier-24.png");
@@ -252,15 +311,18 @@ header[role=banner]{
       }
     }
   }
-  #block-headerbottom{
+
+  #block-headerbottom {
     margin: 155px 0 275px 119px;
     width: 350px;
     order: 5;
-    @media screen and (max-width: 560px){
+
+    @media screen and (max-width: 560px) {
       margin: 50px auto 20px auto;
     }
-    .field--name-field{
-      &-top-text{
+
+    .field--name-field {
+      &-top-text {
         font-family: "AvenirArabic-Book", serif;
         text-transform: uppercase;
         color: $white;
@@ -268,7 +330,8 @@ header[role=banner]{
         font-size: 68px;
         letter-spacing: -.02em;
       }
-      &-middle-text{
+
+      &-middle-text {
         font-family: "AvenirArabic-Book", serif;
         text-transform: uppercase;
         color: $black;
@@ -277,7 +340,8 @@ header[role=banner]{
         margin-top: 18px;
         letter-spacing: -.012em;
       }
-      &-bottomtext{
+
+      &-bottomtext {
         font-family: "AvenirArabic-Book", serif;
         text-transform: uppercase;
         color: $blue;
@@ -290,22 +354,27 @@ header[role=banner]{
     }
   }
 }
-.region-highlighted{
+
+.region-highlighted {
   display: none;
 }
-.responsive-toggled.responsified .responsive-menus-simple li a[href="/node/57"]{
+
+.responsive-toggled.responsified .responsive-menus-simple li a[href="/node/57"] {
   display: none;
 }
+
 .responsive-toggled {
   .menu-item {
     background-color: $black;
-    &:first-child{
-      .menu_link_content{
+
+    &:first-child {
+      .menu_link_content {
         display: block;
         height: 66px;
       }
     }
-    .menu_link_content{
+
+    .menu_link_content {
       display: none;
     }
   }

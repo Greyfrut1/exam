@@ -1,17 +1,19 @@
 @import "variables";
 @import "fonts";
 
-article[about="/node/38"]{
-  .block-views-blockcontent-services-block-1{
+article[about="/node/38"] {
+  .block-views-blockcontent-services-block-1 {
     padding-top: 50px;
     padding-bottom: 50px;
+
     @media screen and (max-width: 1160px) {
-      & > div{
-        .view-content-services{
-          .view-content{
+      &>div {
+        .view-content-services {
+          .view-content {
             grid-template-columns: 1fr 1fr 1fr;
-            .views-row{
-              article{
+
+            .views-row {
+              article {
                 width: 290px;
                 margin: 0 auto;
               }
@@ -20,13 +22,15 @@ article[about="/node/38"]{
         }
       }
     }
+
     @media screen and (max-width: 970px) {
-      & > div{
-        .view-content-services{
-          .view-content{
+      &>div {
+        .view-content-services {
+          .view-content {
             grid-template-columns: 1fr 1fr;
-            .views-row{
-              article{
+
+            .views-row {
+              article {
                 width: 290px;
                 margin: 0 auto;
               }
@@ -35,13 +39,15 @@ article[about="/node/38"]{
         }
       }
     }
+
     @media screen and (max-width: 650px) {
-      & > div{
-        .view-content-services{
-          .view-content{
+      &>div {
+        .view-content-services {
+          .view-content {
             grid-template-columns: 1fr;
-            .views-row{
-              article{
+
+            .views-row {
+              article {
                 width: 290px;
                 margin: 0 auto;
               }

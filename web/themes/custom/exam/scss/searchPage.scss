@@ -1,31 +1,35 @@
 @import "variables";
 @import "fonts";
 
-.search-form{
+.search-form {
   max-width: 1250px;
   margin: 0 auto;
   padding: 0 10px;
   margin-top: 30px;
-  label{
-    font-family: "AvenirArabic-Light",serif;
+
+  label {
+    font-family: "AvenirArabic-Light", serif;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: normal;
     font-size: 14px;
     color: $black;
   }
-  input{
+
+  input {
     border: 1px solid #cccccc;
     background-color: white;
     height: 20px;
     border-radius: 0;
   }
-  .form-submit{
+
+  .form-submit {
     color: $black;
     height: 25px;
   }
 }
-.search-form ~ h2{
+
+.search-form~h2 {
   max-width: 1250px;
   margin: 0 auto;
   margin-top: 27px;
@@ -36,7 +40,9 @@
   line-height: 39px;
   font-size: 29px;
   padding-left: 9px;
-  &:before, &:after{
+
+  &:before,
+  &:after {
     content: '';
     display: inline-block;
     vertical-align: 10px;
@@ -47,42 +53,51 @@
     border: solid #FFF;
     border-width: 0 20px;
   }
-  &:before{
+
+  &:before {
     margin-left: -100%;
   }
-  &:after{
+
+  &:after {
     margin-right: -100%;
   }
 }
-.item-list{
+
+.item-list {
   max-width: 1250px;
   margin: 0 auto;
   margin-top: 30px;
   padding: 0 10px;
   padding-bottom: 50px;
-  li{
+
+  li {
     margin-bottom: 15px;
   }
-  .search-result__title{
-    a{
+
+  .search-result__title {
+    a {
       color: $black;
       font-family: "OrganettoBoldRegular", serif;
       text-decoration: none;
     }
   }
-  .search-result__snippet{
-    font-family: "AvenirArabic-Light",serif;
+
+  .search-result__snippet {
+    font-family: "AvenirArabic-Light", serif;
   }
-  .search-result__info{
-    font-family: "AvenirArabic-Light",serif;
-    .username{
+
+  .search-result__info {
+    font-family: "AvenirArabic-Light", serif;
+
+    .username {
       color: $grey;
       text-decoration: none;
       pointer-events: none;
     }
   }
 }
-.search-help-link, .search-advanced{
+
+.search-help-link,
+.search-advanced {
   display: none;
 }
-

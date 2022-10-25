@@ -1,12 +1,13 @@
 @import "variables";
 @import "fonts";
 
-article[about="/node/60"]{
-  .block-views-blockcontent-clients-block-1{
+article[about="/node/60"] {
+  .block-views-blockcontent-clients-block-1 {
     max-width: 1250px;
     margin: 0 auto;
     padding: 30px 10px 30px 10px;
-    h2{
+
+    h2 {
       font-family: "OrganettoBoldRegular", serif;
       text-align: center;
       overflow: hidden;
@@ -14,7 +15,9 @@ article[about="/node/60"]{
       line-height: 39px;
       font-size: 29px;
       margin-bottom: 30px;
-      &:before, &:after{
+
+      &:before,
+      &:after {
         content: '';
         display: inline-block;
         vertical-align: 10px;
@@ -25,50 +28,60 @@ article[about="/node/60"]{
         border: solid #FFF;
         border-width: 0 20px;
       }
-      &:before{
+
+      &:before {
         margin-left: -100%;
       }
-      &:after{
+
+      &:after {
         margin-right: -100%;
       }
     }
-  .view-content{
-    justify-content: space-between;
-    padding-bottom: 70px;
-    display: flex;
-    flex-wrap: wrap;
-    .views-row{
-      width: 45%;
-      margin-bottom: 20px;
-      .field--name-field-imagec{
-        img{
-          width: 100%;
-          height: auto;
+
+    .view-content {
+      justify-content: space-between;
+      padding-bottom: 70px;
+      display: flex;
+      flex-wrap: wrap;
+
+      .views-row {
+        width: 45%;
+        margin-bottom: 20px;
+
+        .field--name-field-imagec {
+          img {
+            width: 100%;
+            height: auto;
+          }
         }
       }
     }
   }
-  }
 }
-.slick-slide{
+
+.slick-slide {
   height: 130px !important;
-  div{
+
+  div {
     height: 100%;
     display: flex;
-    .slide{
+
+    .slide {
       margin: auto;
       height: auto;
     }
   }
-  .views-field-field-imagec{
+
+  .views-field-field-imagec {
     margin: auto;
-    img{
+
+    img {
       width: 130px;
       height: auto;
     }
   }
 }
 
-.slick__slide{
+.slick__slide {
   display: flex !important;
 }

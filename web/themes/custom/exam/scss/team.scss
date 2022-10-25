@@ -1,17 +1,19 @@
 @import "variables";
 @import "fonts";
 
-article[about="/node/53"]{
-  .block-views-blockcontent-our-team-block-1{
+article[about="/node/53"] {
+  .block-views-blockcontent-our-team-block-1 {
     padding-top: 50px;
     padding-bottom: 50px;
+
     @media screen and (max-width: 1160px) {
-      & > div{
-        .view-content-our-team{
-          .view-content{
+      &>div {
+        .view-content-our-team {
+          .view-content {
             grid-template-columns: 1fr 1fr 1fr;
-            .views-row{
-              article{
+
+            .views-row {
+              article {
                 width: 290px;
                 margin: 0 auto;
               }
@@ -20,13 +22,15 @@ article[about="/node/53"]{
         }
       }
     }
+
     @media screen and (max-width: 970px) {
-      & > div{
-        .view-content-our-team{
-          .view-content{
+      &>div {
+        .view-content-our-team {
+          .view-content {
             grid-template-columns: 1fr 1fr;
-            .views-row{
-              article{
+
+            .views-row {
+              article {
                 width: 290px;
                 margin: 0 auto;
               }
@@ -35,13 +39,15 @@ article[about="/node/53"]{
         }
       }
     }
+
     @media screen and (max-width: 650px) {
-      & > div{
-        .view-content-our-team{
-          .view-content{
+      &>div {
+        .view-content-our-team {
+          .view-content {
             grid-template-columns: 1fr;
-            .views-row{
-              article{
+
+            .views-row {
+              article {
                 width: 290px;
                 margin: 0 auto;
               }
@@ -52,23 +58,28 @@ article[about="/node/53"]{
     }
   }
 }
-.field--name-field-like{
-  & > div:last-child{
+
+.field--name-field-like {
+  &>div:last-child {
     display: none;
   }
 }
+
 .ajax-progress {
   display: none;
 }
+
 .like_dislike {
   margin-left: 72px;
   margin-top: 5px;
   margin-bottom: 3px;
+
   .like {
     border: none;
     float: none;
     width: auto;
-    a{
+
+    a {
       width: 16px;
       height: 16px;
       padding-left: 0;
@@ -76,23 +87,29 @@ article[about="/node/53"]{
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
-      &:active{
+
+      &:active {
         background: url("../image/free-icon-heart-2589054.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
       }
-      &:after,&:before{
+
+      &:after,
+      &:before {
         display: none;
       }
     }
-    span{
+
+    span {
       padding-right: 0;
       float: none;
       line-height: 10px;
       padding-left: 5px;
       font-size: 10px;
-      &:after,&:before{
+
+      &:after,
+      &:before {
         display: none;
       }
     }

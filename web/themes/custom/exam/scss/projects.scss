@@ -1,49 +1,40 @@
 @import "variables";
 @import "fonts";
 
-article[about="/node/39"]{
-  .block-views-blockcontent-prohects-block-1{
+article[about="/node/39"] {
+  .block-views-blockcontent-prohects-block-1 {
     padding: 50px 20px 40px 20px;
-    h2{
+
+    h2 {
       font-family: "OrganettoBoldRegular", serif;
     }
-    .view-content-prohects{
+
+    .view-content-prohects {
       background: none;
       padding-top: 30px;
       padding-bottom: 50px;
-      .view-content{
+
+      .view-content {
         grid-row-gap: 10px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         margin: 0 auto;
-        .views-row{
-          .block-field-blocknodeprojectfield-read-more{
+
+        .views-row {
+          .block-field-blocknodeprojectfield-read-more {
             border-bottom: none;
           }
         }
       }
     }
+
     @media screen and (max-width: 1160px) {
-    & > div{
-      .view-content-prohects{
-        .view-content{
-          grid-template-columns: 1fr 1fr 1fr;
-          .views-row{
-            article{
-              width: 290px;
-              margin: 0 auto;
-            }
-          }
-        }
-      }
-    }
-  }
-    @media screen and (max-width: 970px) {
-      & > div{
-        .view-content-prohects{
-          .view-content{
-            grid-template-columns: 1fr 1fr;
-            .views-row{
-              article{
+      &>div {
+        .view-content-prohects {
+          .view-content {
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .views-row {
+              article {
                 width: 290px;
                 margin: 0 auto;
               }
@@ -52,13 +43,32 @@ article[about="/node/39"]{
         }
       }
     }
+
+    @media screen and (max-width: 970px) {
+      &>div {
+        .view-content-prohects {
+          .view-content {
+            grid-template-columns: 1fr 1fr;
+
+            .views-row {
+              article {
+                width: 290px;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+      }
+    }
+
     @media screen and (max-width: 650px) {
-      & > div{
-        .view-content-prohects{
-          .view-content{
+      &>div {
+        .view-content-prohects {
+          .view-content {
             grid-template-columns: 1fr;
-            .views-row{
-              article{
+
+            .views-row {
+              article {
                 width: 290px;
                 margin: 0 auto;
               }
