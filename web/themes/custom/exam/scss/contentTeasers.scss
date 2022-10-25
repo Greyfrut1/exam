@@ -616,6 +616,11 @@
     padding: 6px;
     padding-bottom: 4px;
     background-color: $light-grey;
+    .form-item-search-api-fulltext{
+      input{
+        padding-left: 10px;
+      }
+    }
     .form-type-textfield{
       margin: 0;
     }
@@ -826,7 +831,7 @@
 
   }
 }
-.block-views-blockcontent-clients-block-1{
+.block-views-blockclients-slider-block-1{
   max-width: 1250px;
   margin: 0 auto;
   h2{
@@ -857,11 +862,9 @@
     }
   }
   .view-content{
-    display: flex;
     padding-top: 40px;
-    padding-bottom: 152px;
+    padding-bottom: 154px;
     .views-row{
-      display: flex;
       height: auto;
       .contextual-region{
         margin: auto;
@@ -878,4 +881,3 @@
     }
   }
 }
-
