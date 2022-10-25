@@ -1,26 +1,6 @@
 @import "variables";
 @import "fonts";
 
-@font-face {
-  font-family: "NexaSlabBlod";
-  src: url("../fonts/NexaSlabBoldFREE.woff2");
-}
-
-@font-face {
-  font-family: "RadianExtraLight";
-  src: url("../fonts/Radian ExtraLight.woff2");
-}
-
-@font-face {
-  font-family: "AvenirArabic-Book";
-  src: url("../fonts/AvenirArabic-Book.woff2");
-}
-
-@font-face {
-  font-family: "AvenirArabic-Light";
-  src: url("../fonts/AvenirArabic-Light.woff2");
-}
-
 header[role=banner] {
   position: relative;
   padding: 0 20px;
