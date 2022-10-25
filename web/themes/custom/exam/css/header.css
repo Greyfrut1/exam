@@ -53,20 +53,16 @@ header[role=banner] {
       top: 0;
       left: 0;
       max-width: 100%;
-      height: auto;
-      z-index: -1; }
-      @media screen and (max-width: 1000px) {
-        .region-header #block-headerbackground img {
-          object-fit: cover;
-          height: 700px; } }
+      z-index: -1;
+      object-fit: cover;
+      height: 700px; }
   .region-header #block-quarantie {
     text-align: center;
     width: 240px;
     height: 80px;
     padding: 34px 0 0 0;
     background-color: #373645;
-    order: 1;
-    box-shadow: 0 3px 15px -5px #373645; }
+    order: 1; }
     @media screen and (max-width: 384px) {
       .region-header #block-quarantie {
         width: 100%; } }
@@ -85,6 +81,8 @@ header[role=banner] {
     position: static; }
     .region-header .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
       left: 0; }
+      .region-header .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple .contextual {
+        display: none; }
   .region-header .responsive-menus {
     flex-grow: 2;
     order: 2;
@@ -111,8 +109,7 @@ header[role=banner] {
           box-shadow: none !important; } }
   .region-header #block-mainmenu {
     background-color: #ffffff;
-    flex-grow: 2;
-    box-shadow: 0 8px 8px -3px #373645; }
+    flex-grow: 2; }
     .region-header #block-mainmenu .menu {
       margin: 0;
       display: flex;
@@ -126,6 +123,12 @@ header[role=banner] {
         font-family: "AvenirArabic-Light",serif;
         padding-bottom: 35px;
         height: 28px; }
+        .region-header #block-mainmenu .menu .menu-item .menu_link_content {
+          display: none; }
+        .region-header #block-mainmenu .menu .menu-item:first-child .menu_link_content {
+          display: block; }
+        .region-header #block-mainmenu .menu .menu-item a[href="/node/57"] {
+          display: none !important; }
         .region-header #block-mainmenu .menu .menu-item .contextual-region {
           height: 28px; }
         .region-header #block-mainmenu .menu .menu-item a {
@@ -143,8 +146,7 @@ header[role=banner] {
   .region-header #block-companylinks {
     background-color: #ffffff;
     padding: 0 11px;
-    order: 3;
-    box-shadow: 0 8px 8px -3px #373645; }
+    order: 3; }
     @media screen and (max-width: 1160px) {
       .region-header #block-companylinks {
         order: 2;
@@ -153,6 +155,9 @@ header[role=banner] {
       .region-header #block-companylinks {
         order: 3;
         width: 40%; } }
+    @media screen and (max-width: 500px) {
+      .region-header #block-companylinks {
+        width: 25%; } }
     @media screen and (max-width: 384px) {
       .region-header #block-companylinks {
         order: 2; }
@@ -177,7 +182,6 @@ header[role=banner] {
             line-height: 25px; }
   .region-header .search-block-form {
     order: 4;
-    box-shadow: 0 8px 8px -3px #373645;
     background-color: #ffffff;
     padding-left: 9px;
     padding-right: 28px; }
@@ -188,6 +192,9 @@ header[role=banner] {
       .region-header .search-block-form {
         order: 4;
         width: 40%; } }
+    @media screen and (max-width: 500px) {
+      .region-header .search-block-form {
+        width: 60%; } }
     .region-header .search-block-form form {
       display: flex;
       align-items: center;
@@ -200,6 +207,8 @@ header[role=banner] {
           width: 166px;
           height: 35px;
           border-radius: 0; }
+          .region-header .search-block-form form .form-type-search input::placeholder {
+            color: transparent; }
       .region-header .search-block-form form .form-wrapper {
         display: block;
         position: relative; }
@@ -249,5 +258,16 @@ header[role=banner] {
 
 .region-highlighted {
   display: none; }
+
+.responsive-toggled.responsified .responsive-menus-simple li a[href="/node/57"] {
+  display: none; }
+
+.responsive-toggled .menu-item {
+  background-color: #373645; }
+  .responsive-toggled .menu-item:first-child .menu_link_content {
+    display: block;
+    height: 66px; }
+  .responsive-toggled .menu-item .menu_link_content {
+    display: none; }
 
 /*# sourceMappingURL=header.css.map */

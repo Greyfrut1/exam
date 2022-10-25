@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "NexaSlabBlod";
+  src: url("../fonts/NexaSlabBoldFREE.woff2"); }
+@font-face {
+  font-family: "RadianExtraLight";
+  src: url("../fonts/Radian ExtraLight.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Book";
+  src: url("../fonts/AvenirArabic-Book.woff2"); }
+@font-face {
+  font-family: "AvenirArabic-Light";
+  src: url("../fonts/AvenirArabic-Light.woff2"); }
+@font-face {
+  font-family: "OrganettoBoldRegular";
+  src: url("../fonts/OrganettoBoldRegular.woff2"); }
+@font-face {
+  font-family: "AvenirNextCyr-Light";
+  src: url("../fonts/AvenirNextCyr-Light.woff2"); }
+.search-form {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-top: 30px; }
+  .search-form label {
+    font-family: "AvenirArabic-Light",serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    color: #373645; }
+  .search-form input {
+    border: 1px solid #cccccc;
+    background-color: white;
+    height: 20px;
+    border-radius: 0; }
+  .search-form .form-submit {
+    color: #373645;
+    height: 25px; }
+
+.search-form ~ h2 {
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: 27px;
+  font-family: "OrganettoBoldRegular", serif;
+  text-align: center;
+  overflow: hidden;
+  color: #373645;
+  line-height: 39px;
+  font-size: 29px;
+  padding-left: 9px; }
+  .search-form ~ h2:before, .search-form ~ h2:after {
+    content: '';
+    display: inline-block;
+    vertical-align: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1px;
+    background: #cccccc;
+    border: solid #FFF;
+    border-width: 0 20px; }
+  .search-form ~ h2:before {
+    margin-left: -100%; }
+  .search-form ~ h2:after {
+    margin-right: -100%; }
+
+.item-list {
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0 10px;
+  padding-bottom: 50px; }
+  .item-list li {
+    margin-bottom: 15px; }
+  .item-list .search-result__title a {
+    color: #373645;
+    font-family: "OrganettoBoldRegular", serif;
+    text-decoration: none; }
+  .item-list .search-result__snippet {
+    font-family: "AvenirArabic-Light",serif; }
+  .item-list .search-result__info {
+    font-family: "AvenirArabic-Light",serif; }
+    .item-list .search-result__info .username {
+      color: #cccccc;
+      text-decoration: none;
+      pointer-events: none; }
+
+.search-help-link, .search-advanced {
+  display: none; }
+
+/*# sourceMappingURL=searchPage.css.map */

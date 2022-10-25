@@ -17,7 +17,7 @@
   font-family: "AvenirNextCyr-Light";
   src: url("../fonts/AvenirNextCyr-Light.woff2"); }
 article[about="/contact_us"] .node__content > .layout > .layout__region {
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -45,6 +45,11 @@ article[about="/contact_us"] .node__content > .layout > .layout__region {
       left: calc(50% - 27.5px); }
   article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block {
     width: 460px; }
+    @media screen and (max-width: 945px) {
+      article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box; } }
     article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block label {
       display: none; }
     article[about="/contact_us"] .node__content > .layout > .layout__region .block-webform-block .webform-actions input {
@@ -82,7 +87,8 @@ article[about="/contact_us"] .node__content > .layout > .layout__region {
       padding-top: 15px;
       height: 200px; }
   article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content {
-    width: 460px; }
+    width: 460px;
+    padding: 0 10px; }
     article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-title, article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-address-street-, article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-address-state, article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-phone-numbers, article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-mail {
       font-family: "AvenirArabic-Light", serif; }
     article[about="/contact_us"] .node__content > .layout > .layout__region .block-block-content .block-field-blockblock-contentcontact-form-infofield-title {

@@ -5,7 +5,7 @@ article[about="/contact_us"]{
   .node__content{
     & > .layout{
       & > .layout__region{
-        width: 940px;
+        max-width: 940px;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
@@ -28,6 +28,12 @@ article[about="/contact_us"]{
         margin-bottom: 64px;
       }
         .block-webform-block{
+          width: 460px;
+          @media screen and (max-width: 945px) {
+            width: 100%;
+            padding: 0 10px;
+            box-sizing: border-box;
+          }
           label{
             display: none;
           }
@@ -47,7 +53,6 @@ article[about="/contact_us"]{
               font-size: 18px;
             }
           }
-          width: 460px;
           #edit-full-name, #edit-email, #edit-mobile-number{
             height: 55px;
           }
@@ -79,6 +84,7 @@ article[about="/contact_us"]{
         }
         .block-block-content{
           width: 460px;
+          padding: 0 10px;
           .block-field-blockblock-contentcontact-form-infofield-title, .block-field-blockblock-contentcontact-form-infofield-address-street-, .block-field-blockblock-contentcontact-form-infofield-address-state, .block-field-blockblock-contentcontact-form-infofield-phone-numbers, .block-field-blockblock-contentcontact-form-infofield-mail{
             font-family: "AvenirArabic-Light", serif;
           }

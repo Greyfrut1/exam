@@ -42,12 +42,9 @@ header[role=banner]{
         top: 0;
         left: 0;
         max-width: 100%;
-        height: auto;
         z-index: -1;
-        @media screen and (max-width: 1000px) {
-          object-fit: cover;
-          height: 700px;
-        }
+        object-fit: cover;
+        height: 700px;
       }
   }
   #block-quarantie{
@@ -57,7 +54,6 @@ header[role=banner]{
     padding: 34px 0 0 0;
     background-color: $black;
     order: 1;
-    box-shadow: 0 3px 15px -5px #373645;
     @media screen and (max-width: 384px) {
       width: 100%;
     }
@@ -79,6 +75,9 @@ header[role=banner]{
     position: static;
     .responsive-menus-simple {
       left: 0;
+      .contextual{
+        display: none;
+      }
     }
     }
   .responsive-menus{
@@ -111,7 +110,6 @@ header[role=banner]{
   #block-mainmenu{
     background-color: $white;
     flex-grow: 2;
-    box-shadow: 0 8px 8px -3px $black;
     .menu{
       margin: 0;
       display: flex;
@@ -126,6 +124,17 @@ header[role=banner]{
         font-family: "AvenirArabic-Light",serif;
         padding-bottom: 35px;
         height: 28px;
+        .menu_link_content{
+          display: none;
+        }
+        &:first-child{
+          .menu_link_content{
+            display: block;
+          }
+        }
+          a[href="/node/57"]{
+            display: none !important;
+        }
         .contextual-region{
           height: 28px;
         }
@@ -152,7 +161,6 @@ header[role=banner]{
     background-color: $white;
     padding: 0 11px;
     order: 3;
-    box-shadow: 0 8px 8px -3px $black;
     @media screen and (max-width: 1160px) {
       order: 2;
       flex-grow: 3;
@@ -161,6 +169,9 @@ header[role=banner]{
     order: 3;
       width: 40%;
   }
+    @media screen and (max-width: 500px) {
+      width: 25%;
+    }
     @media screen and (max-width: 384px) {
       order: 2;
       .social-media-links--platforms{
@@ -192,13 +203,15 @@ header[role=banner]{
   }
   .search-block-form{
     order: 4;
-    box-shadow: 0 8px 8px -3px $black;
     @media screen and (max-width: 1160px) {
       order: 3;
     }
     @media screen and (max-width: 768px) {
       order: 4;
       width: 40%;
+    }
+    @media screen and (max-width: 500px) {
+      width: 60%;
     }
     background-color: $white;
     padding-left: 9px;
@@ -215,6 +228,9 @@ header[role=banner]{
           width: 166px;
           height: 35px;
           border-radius: 0;
+          &::placeholder{
+            color: transparent;
+          }
         }
       }
       .form-wrapper{
@@ -276,4 +292,21 @@ header[role=banner]{
 }
 .region-highlighted{
   display: none;
+}
+.responsive-toggled.responsified .responsive-menus-simple li a[href="/node/57"]{
+  display: none;
+}
+.responsive-toggled {
+  .menu-item {
+    background-color: $black;
+    &:first-child{
+      .menu_link_content{
+        display: block;
+        height: 66px;
+      }
+    }
+    .menu_link_content{
+      display: none;
+    }
+  }
 }

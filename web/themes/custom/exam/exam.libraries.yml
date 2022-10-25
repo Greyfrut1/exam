@@ -13,7 +13,7 @@ global:
       css/about.css: {}
       css/contentFull.css: {}
       css/form.css: {}
-
+      css/searchPage.css: {}
 slick:
   js:
     js/script.js: {}

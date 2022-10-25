@@ -47,6 +47,9 @@
         font-size: 30px;
         letter-spacing: -.01em;
         line-height: 60px;
+        @media screen and (max-width: 752px) {
+          font-size: 15px;
+        }
       }
       .field--name-body{
         font-family: "AvenirArabic-Book", serif;
@@ -55,6 +58,10 @@
         font-size: 21px;
         line-height: 62px;
         letter-spacing: -.02em;
+        @media screen and (max-width: 752px) {
+          font-size: 15px;
+          line-height: 30px;
+        }
       }
       .field--name-field-read-more{
         background-color: $blue;
@@ -66,6 +73,9 @@
         margin-top: 16px;
         padding: 2px 9px 4px 9px;
         font-family: "AvenirArabic-Book",serif;
+        @media screen and (max-width: 752px) {
+          margin-top: 3px;
+        }
         a{
           font-family: "AvenirArabic-Book", serif;
           color: $white;
@@ -619,6 +629,8 @@
     .form-item-search-api-fulltext{
       input{
         padding-left: 10px;
+        &::placeholder{
+        }
       }
     }
     .form-type-textfield{
@@ -641,6 +653,7 @@
     position: relative;
     display: flex;
     label{
+      display: none;
       position: absolute;
       z-index: 1;
       pointer-events: none;
@@ -726,6 +739,11 @@
         line-height: 11px;
         text-transform: uppercase;
         padding-left: 10px;
+        @media screen and (max-width: 500px) {
+          grid-column: 5/5;
+          grid-row: 2/2;
+          padding-right: 15px;
+        }
         span{
           color: $black;
           padding: 0 1px 0 2px;
@@ -751,6 +769,12 @@
         line-height: 11px;
         text-transform: uppercase;
         margin-left: 2px;
+        @media screen and (max-width: 500px) {
+          grid-column: 5/5;
+          grid-row: 3/3;
+          text-align: end;
+          padding-right: 15px;
+        }
       }
       .views-field-revision-timestamp-3{
         grid-column: 5/5;
