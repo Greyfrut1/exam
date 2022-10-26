@@ -450,6 +450,9 @@
     padding: 6px;
     padding-bottom: 4px;
     background-color: #f5f5f5; }
+    @media screen and (max-width: 435px) {
+      .block-views-blocksearch-news-block-1 .form--inline {
+        width: 100%; } }
     .block-views-blocksearch-news-block-1 .form--inline .form-item-search-api-fulltext input {
       padding-left: 10px; }
     .block-views-blocksearch-news-block-1 .form--inline .form-type-textfield {
@@ -485,6 +488,9 @@
       padding: 1px;
       font-size: 16px;
       border: 1px solid #cccccc; }
+      @media screen and (max-width: 435px) {
+        .block-views-blocksearch-news-block-1 .form-type-textfield input {
+          width: 100%; } }
     .block-views-blocksearch-news-block-1 .form-type-textfield input:focus {
       z-index: 5; }
   .block-views-blocksearch-news-block-1 .view-content {

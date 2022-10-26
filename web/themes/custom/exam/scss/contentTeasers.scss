@@ -662,7 +662,6 @@
 
 .block-views-blocksearch-news-block-1 {
   padding-top: 167px;
-  ;
 
   h2 {
     max-width: 1250px;
@@ -717,7 +716,9 @@
     padding: 6px;
     padding-bottom: 4px;
     background-color: $light-grey;
-
+    @media screen and (max-width: 435px) {
+      width: 100%;
+    }
     .form-item-search-api-fulltext {
       input {
         padding-left: 10px;
@@ -769,6 +770,9 @@
       padding: 1px;
       font-size: 16px;
       border: 1px solid $grey;
+      @media screen and (max-width: 435px) {
+        width: 100%;
+      }
     }
 
     input:focus {

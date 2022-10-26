@@ -51,7 +51,7 @@ header[role=banner] {
     padding: 34px 0 0 0;
     background-color: #373645;
     order: 1; }
-    @media screen and (max-width: 384px) {
+    @media screen and (max-width: 435px) {
       .region-header #block-quarantie {
         width: 100%; } }
     .region-header #block-quarantie .field--name-field-main-name {
@@ -88,7 +88,7 @@ header[role=banner] {
           margin-left: auto;
           padding: 10px !important;
           background-color: #373645 !important; } }
-    @media screen and (max-width: 384px) {
+    @media screen and (max-width: 435px) {
       .region-header .responsive-menus {
         order: 3; }
         .region-header .responsive-menus .toggler {
@@ -146,9 +146,10 @@ header[role=banner] {
     @media screen and (max-width: 500px) {
       .region-header #block-companylinks {
         width: 25%; } }
-    @media screen and (max-width: 384px) {
+    @media screen and (max-width: 435px) {
       .region-header #block-companylinks {
-        order: 2; }
+        order: 2;
+        height: 50px; }
         .region-header #block-companylinks .social-media-links--platforms {
           margin-top: 20px !important; } }
     .region-header #block-companylinks .social-media-links--platforms {
@@ -183,6 +184,12 @@ header[role=banner] {
     @media screen and (max-width: 500px) {
       .region-header .search-block-form {
         width: 60%; } }
+    @media screen and (max-width: 435px) {
+      .region-header .search-block-form {
+        width: 100%;
+        height: 50px; }
+        .region-header .search-block-form form {
+          margin-top: 4px !important; } }
     .region-header .search-block-form form {
       display: flex;
       align-items: center;

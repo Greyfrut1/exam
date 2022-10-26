@@ -46,7 +46,7 @@ header[role=banner] {
     background-color: $black;
     order: 1;
 
-    @media screen and (max-width: 384px) {
+    @media screen and (max-width: 435px) {
       width: 100%;
     }
 
@@ -100,7 +100,7 @@ header[role=banner] {
       }
     }
 
-    @media screen and (max-width: 384px) {
+    @media screen and (max-width: 435px) {
       order: 3;
 
       .toggler {
@@ -191,9 +191,9 @@ header[role=banner] {
       width: 25%;
     }
 
-    @media screen and (max-width: 384px) {
+    @media screen and (max-width: 435px) {
       order: 2;
-
+      height: 50px;
       .social-media-links--platforms {
         margin-top: 20px !important;
       }
@@ -232,7 +232,6 @@ header[role=banner] {
 
   .search-block-form {
     order: 4;
-
     @media screen and (max-width: 1160px) {
       order: 3;
     }
@@ -244,6 +243,13 @@ header[role=banner] {
 
     @media screen and (max-width: 500px) {
       width: 60%;
+    }
+    @media screen and (max-width: 435px) {
+      width: 100%;
+      height: 50px;
+      form{
+        margin-top: 4px !important;
+      }
     }
 
     background-color: $white;
